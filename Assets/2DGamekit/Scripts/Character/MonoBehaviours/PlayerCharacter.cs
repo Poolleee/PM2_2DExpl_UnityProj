@@ -50,6 +50,11 @@ namespace Gamekit2D
         public RandomAudioPlayer meleeAttackAudioPlayer;
         public RandomAudioPlayer rangedAttackAudioPlayer;
 
+        public PlayerAnimationEvents PlayerAnimationEvents;
+
+        //Elementi Audio Wwise
+        public PlayerAnimationEvents playerAnimationEvents;
+
         public float shotsPerSecond = 1f;
         public float bulletSpeed = 5f;
         public float holdingGunTimeoutDuration = 10f;
@@ -444,6 +449,9 @@ namespace Gamekit2D
                 if (!wasGrounded && m_MoveVector.y < -1.0f)
                 {//only play the landing sound if falling "fast" enough (avoid small bump playing the landing sound)
                     landingAudioPlayer.PlayRandomSound(m_CurrentSurface);
+                    PlayerAnimationEvents = GameObject.Find("Ellen").GetComponent<PlayerAnimationEvents>();
+                    PlayerAnimationEvents.Landing_Event.Post(gameObject);
+
                 }
             }
             else
@@ -751,6 +759,8 @@ namespace Gamekit2D
             meleeDamager.EnableDamage();
             meleeDamager.disableDamageAfterHit = true;
             meleeAttackAudioPlayer.PlayRandomSound();
+            PlayerAnimationEvents = GameObject.Find("Ellen").GetComponent<PlayerAnimationEvents>();
+            PlayerAnimationEvents.RoboArm_Event.Post(gameObject);
         }
 
         public void DisableMeleeAttack()
@@ -766,10 +776,10 @@ namespace Gamekit2D
 
         public void PlayFootstep()
         {
-            footstepAudioPlayer.PlayRandomSound(m_CurrentSurface);
-            var footstepPosition = transform.position;
-            footstepPosition.z -= 1;
-            VFXController.Instance.Trigger("DustPuff", footstepPosition, 0, false, null, m_CurrentSurface);
+           // footstepAudioPlayer.PlayRandomSound(m_CurrentSurface);
+            //var footstepPosition = transform.position;
+            //footstepPosition.z -= 1;
+            //VFXController.Instance.Trigger("DustPuff", footstepPosition, 0, false, null, m_CurrentSurface);
         }
 
         public void Respawn(bool resetHealth, bool useCheckpoint)
