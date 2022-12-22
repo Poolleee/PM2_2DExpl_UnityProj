@@ -207,8 +207,20 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3f77f4b458a8f1439e0884377d61ba07
     GuidInternal: 
-    m_lastTime: -8585300488386121230
+    m_lastTime: -8585299670905368383
     List:
+    - name: AlienTile
+      guid: abd81f2a2debd74d84efd8e356cf469a
+      id: 2589600742
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: AlienTile
+        ObjectType: 3
+      Path: Default Work Unit\AlienTile
+      maxAttenuation: 0
+      maxDuration: 2734513
+      minDuration: 2734513
     - name: Play_Footstep
       guid: de13ba835ee3e34abd2dc364ac3dfd48
       id: 1602358412
@@ -396,8 +408,33 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7f1b1624dc871f478bf7b81059154bb9
     GuidInternal: 
-    m_lastTime: -8585300851850373070
-    List: []
+    m_lastTime: -8585299676053346667
+    List:
+    - name: Surface_Type
+      guid: 990da11ce7582546b36432945d247e28
+      id: 4064446173
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Surface_Type
+        ObjectType: 11
+      Path: Default Work Unit\Surface_Type
+      values:
+      - name: AlienTile
+        guid: f018523e6ad12a48ba4c71e6bbcf54fd
+        id: 2589600742
+        PathAndIcons:
+        - ElementName: AlienTile
+          ObjectType: 10
+      - name: Grass
+        guid: d83a28c654570041a1ea1719be76976d
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Grass
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -409,5 +446,8 @@ MonoBehaviour:
   - /PM2_2DExpl_WwiseProject
   - /PM2_2DExpl_WwiseProject/Events
   - /PM2_2DExpl_WwiseProject/Events/Default Work Unit
+  - /PM2_2DExpl_WwiseProject/Switches
+  - /PM2_2DExpl_WwiseProject/Switches/Default Work Unit
+  - /PM2_2DExpl_WwiseProject/Switches/Default Work Unit/Surface_Type
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

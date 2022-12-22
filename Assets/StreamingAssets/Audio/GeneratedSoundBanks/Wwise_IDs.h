@@ -13,11 +13,27 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_CROUCH = 3989731860U;
         static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_LANDING = 2323405115U;
         static const AkUniqueID PLAY_ROBOARM = 1402528148U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace SURFACE_TYPE
+        {
+            static const AkUniqueID GROUP = 4064446173U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ALIENTILE = 2589600742U;
+                static const AkUniqueID GRASS = 4248645337U;
+            } // namespace SWITCH
+        } // namespace SURFACE_TYPE
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {

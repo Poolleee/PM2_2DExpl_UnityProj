@@ -51,9 +51,8 @@ namespace Gamekit2D
         public RandomAudioPlayer rangedAttackAudioPlayer;
 
         public PlayerAnimationEvents PlayerAnimationEvents;
-
         //Elementi Audio Wwise
-        public PlayerAnimationEvents playerAnimationEvents;
+      
 
         public float shotsPerSecond = 1f;
         public float bulletSpeed = 5f;
@@ -776,10 +775,10 @@ namespace Gamekit2D
 
         public void PlayFootstep()
         {
-           // footstepAudioPlayer.PlayRandomSound(m_CurrentSurface);
-            //var footstepPosition = transform.position;
-            //footstepPosition.z -= 1;
-            //VFXController.Instance.Trigger("DustPuff", footstepPosition, 0, false, null, m_CurrentSurface);
+           footstepAudioPlayer.PlayRandomSound(m_CurrentSurface);
+            var footstepPosition = transform.position;
+            footstepPosition.z -= 1;
+           VFXController.Instance.Trigger("DustPuff", footstepPosition, 0, false, null, m_CurrentSurface);
         }
 
         public void Respawn(bool resetHealth, bool useCheckpoint)

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d484a20a2ed62c47977f437d17d7a81, type: 3}
+  m_Name: 3E5218F0-D16A-482A-BA4C-71E6BBCF54FD
+  m_EditorClassIdentifier: 
+  objectName: AlienTile
+  id: 2589600742
+  guid: 3E5218F0-D16A-482A-BA4C-71E6BBCF54FD
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 0afb5afe8d66e9e46aef5d95561eb6e2,
+    type: 2}
