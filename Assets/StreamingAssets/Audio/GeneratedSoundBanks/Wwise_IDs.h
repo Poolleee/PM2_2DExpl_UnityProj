@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_LANDING = 2323405115U;
         static const AkUniqueID PLAY_ROBOARM = 1402528148U;
+        static const AkUniqueID SPACESHIP = 554650843U;
     } // namespace EVENTS
 
     namespace SWITCHES
