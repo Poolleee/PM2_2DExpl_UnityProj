@@ -776,11 +776,6 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: c6c2b84056306544aa787c4e87449c5f,
       type: 2}
-  Tile_Event:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 84ab4193136e3a141a00c1e049d9b228,
-      type: 2}
   Alien_Tiles_Switch:
     idInternal: 0
     valueGuidInternal: 
@@ -799,6 +794,11 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 5edccd978b1e14f4388f9c3b1ca2031c,
+      type: 2}
+  Melee_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6839a760b54fe499a9334cf5c81c9991,
       type: 2}
 --- !u!1 &1181578502863468
 GameObject:

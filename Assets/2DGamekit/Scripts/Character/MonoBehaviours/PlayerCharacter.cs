@@ -759,7 +759,8 @@ namespace Gamekit2D
             meleeDamager.disableDamageAfterHit = true;
             meleeAttackAudioPlayer.PlayRandomSound();
             PlayerAnimationEvents = GameObject.Find("Ellen").GetComponent<PlayerAnimationEvents>();
-            PlayerAnimationEvents.RoboArm_Event.Post(gameObject);
+            PlayerAnimationEvents.PlayMelee();
+            //script per MeleeAttack Wwise
         }
 
         public void DisableMeleeAttack()
