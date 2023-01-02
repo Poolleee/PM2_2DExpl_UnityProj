@@ -13,12 +13,22 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ACID_DIVE = 2917534363U;
+        static const AkUniqueID ACID_POOL = 2985076563U;
+        static const AkUniqueID CAVE = 4122393694U;
+        static const AkUniqueID HIGHLITED_BUTTON = 4152341134U;
+        static const AkUniqueID JUNGLE = 219304270U;
+        static const AkUniqueID PLAY_COLUMN_DESTRUCTION = 3652236365U;
+        static const AkUniqueID PLAY_COLUMN_HIT = 3833695162U;
         static const AkUniqueID PLAY_CROUCH = 3989731860U;
         static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_LANDING = 2323405115U;
+        static const AkUniqueID PLAY_MELEE = 2994689306U;
         static const AkUniqueID PLAY_ROBOARM = 1402528148U;
+        static const AkUniqueID SLIDING_DOOR = 3371785692U;
         static const AkUniqueID SPACESHIP = 554650843U;
+        static const AkUniqueID TEMPLE = 2323193050U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -55,7 +65,15 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID NEW_SOUNDBANK = 4072029455U;
+        static const AkUniqueID ACID = 3554728690U;
+        static const AkUniqueID CAVE_AMBIENT = 503680259U;
+        static const AkUniqueID COLUMN = 4252072479U;
+        static const AkUniqueID JUNGLE_AMBIENT = 3807111859U;
+        static const AkUniqueID PLAYER = 1069431850U;
+        static const AkUniqueID SLIDING_DOOR = 3371785692U;
+        static const AkUniqueID SPACESHIP = 554650843U;
+        static const AkUniqueID TEMPLE_AMBIENT = 428909207U;
+        static const AkUniqueID UIMENU = 1846620334U;
     } // namespace BANKS
 
     namespace BUSSES

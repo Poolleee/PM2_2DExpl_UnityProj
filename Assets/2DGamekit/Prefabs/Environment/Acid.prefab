@@ -9686,6 +9686,8 @@ GameObject:
   - component: {fileID: 331503210433366934}
   - component: {fileID: 114256885541341686}
   - component: {fileID: 253368755547334942}
+  - component: {fileID: 6096925206695715878}
+  - component: {fileID: 5288987203814704152}
   m_Layer: 0
   m_Name: Acid
   m_TagString: Untagged
@@ -9927,6 +9929,57 @@ BuoyancyEffector2D:
   m_FlowAngle: 0
   m_FlowMagnitude: 0
   m_FlowVariation: 0
+--- !u!114 &6096925206695715878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999379406090442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df44c6899f27d3b4e95061bea5ab38d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AcidDive_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7bb71d8db3c40a74684526d357cc5d45,
+      type: 2}
+--- !u!114 &5288987203814704152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999379406090442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ede24c4245f11547942614c14a3a23b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layers:
+    serializedVersion: 2
+    m_Bits: 8192
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6096925206695715878}
+        m_TargetAssemblyTypeName: Player_AcidDive_Event, Assembly-CSharp
+        m_MethodName: PlayAcidDive
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
+  inventoryChecks: []
 --- !u!1 &957085463643001656
 GameObject:
   m_ObjectHideFlags: 0
@@ -10001,7 +10054,8 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 78c0b17dedacf4455b320bda44f24e18,
+      type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
