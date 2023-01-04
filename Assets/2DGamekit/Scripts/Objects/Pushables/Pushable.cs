@@ -20,6 +20,9 @@ namespace Gamekit2D
         public AudioClip loopPushClip;
         public AudioClip endPushClip;
 
+        public AK.Wwise.Event StartPushing_Event;
+        public AK.Wwise.Event StopPushing_Event;
+
         public bool Grounded {  get { return m_Grounded; } }
 
         protected SpriteRenderer m_SpriteRenderer;
@@ -77,6 +80,7 @@ namespace Gamekit2D
             pushableAudioSource.loop = false;
             pushableAudioSource.clip = startingPushClip;
             pushableAudioSource.Play();
+            StartPushing_Event.Post(gameObject);
         }
 
         public void EndPushing()
@@ -84,6 +88,7 @@ namespace Gamekit2D
             pushableAudioSource.loop = false;
             pushableAudioSource.clip = endPushClip;
             pushableAudioSource.Play();
+            StopPushing_Event.Post(gameObject);
         }
 
         public void Move (Vector2 movement)
