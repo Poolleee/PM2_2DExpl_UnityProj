@@ -12,6 +12,8 @@ public class PlayerAnimationEvents : MonoBehaviour
     public AK.Wwise.Switch Grass_Switch;
     public AK.Wwise.Event Crouch_Event;
     public AK.Wwise.Event Melee_Event;
+    public AK.Wwise.Event Gun_Event;
+    public AK.Wwise.Event Hurt_Event;
 
     public void PlayFootstep()
     {
@@ -53,9 +55,14 @@ public class PlayerAnimationEvents : MonoBehaviour
         Melee_Event.Post(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayGun()
     {
-        
+        Gun_Event.Post(gameObject);
     }
+
+    public void PlayHurt()
+    {
+        Hurt_Event.Post(gameObject);
+    }
+
 }

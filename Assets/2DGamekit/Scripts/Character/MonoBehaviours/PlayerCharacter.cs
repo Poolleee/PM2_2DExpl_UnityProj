@@ -335,6 +335,10 @@ namespace Gamekit2D
             bullet.spriteRenderer.flipX = facingLeft ^ bullet.bullet.spriteOriginallyFacesLeft;
 
             rangedAttackAudioPlayer.PlayRandomSound();
+            
+            PlayerAnimationEvents = GameObject.Find("Ellen").GetComponent<PlayerAnimationEvents>();
+            PlayerAnimationEvents.PlayGun();
+            //script per Gun Wwise
         }
 
         // Public functions - called mostly by StateMachineBehaviours in the character's Animator Controller but also by Events.
