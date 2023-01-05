@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b3347e31b1dd54ba321b009fb1e9da, type: 3}
   m_Name: AAB5A909-F654-4512-8DDC-8C8D27F03303
   m_EditorClassIdentifier: 
-  objectName: Highlited_Button
-  id: 4152341134
+  objectName: Highlighted_Button
+  id: 3093686167
   guid: AAB5A909-F654-4512-8DDC-8C8D27F03303

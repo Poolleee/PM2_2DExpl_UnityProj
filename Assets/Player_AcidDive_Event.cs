@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class Player_AcidDive_Event : MonoBehaviour
 {
-    public AK.Wwise.Event AcidDive_Event;
-    public void PlayAcidDive()
+    public AK.Wwise.Event PlayerAcidDive_Event;
+    public AK.Wwise.Event ObjectAcidDive_Event;
+    public void PlayPlayerAcidDive()
     {
-        AcidDive_Event.Post(gameObject);
+        PlayerAcidDive_Event.Post(gameObject);
+    }
+
+    public void PlayObjectAcidDive()
+    {
+        ObjectAcidDive_Event.Post(gameObject);
     }
 
     // Update is called once per frame

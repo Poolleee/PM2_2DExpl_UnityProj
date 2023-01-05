@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fc7921f19b1bb846a3c45e997f0a472, type: 3}
-  m_Name: F4FEB468-9A58-490D-9678-31C343559552
+  m_Name: 88148577-12EC-4637-90C3-D76DCD3CA12F
   m_EditorClassIdentifier: 
-  objectName: Jungle_Ambient
-  id: 3807111859
-  guid: F4FEB468-9A58-490D-9678-31C343559552
+  objectName: Monster
+  id: 2376328173
+  guid: 88148577-12EC-4637-90C3-D76DCD3CA12F

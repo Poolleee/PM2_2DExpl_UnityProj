@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79b3347e31b1dd54ba321b009fb1e9da, type: 3}
-  m_Name: 502FC227-4B28-4CF5-83A6-13A6402F940D
+  m_Name: 48FA5E2C-A257-4C07-8A50-8F9AF3A31B95
   m_EditorClassIdentifier: 
-  objectName: Jungle
-  id: 219304270
-  guid: 502FC227-4B28-4CF5-83A6-13A6402F940D
+  objectName: Play_Bite_Enemy
+  id: 3864198525
+  guid: 48FA5E2C-A257-4C07-8A50-8F9AF3A31B95

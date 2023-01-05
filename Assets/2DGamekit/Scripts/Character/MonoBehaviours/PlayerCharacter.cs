@@ -709,8 +709,12 @@ namespace Gamekit2D
             m_Animator.SetBool(m_HashGroundedPara, false);
             hurtAudioPlayer.PlayRandomSound();
 
+            //wwise
+            PlayerAnimationEvents = GameObject.Find("Ellen").GetComponent<PlayerAnimationEvents>();
+            PlayerAnimationEvents.PlayHurt();
+
             //if the health is < 0, mean die callback will take care of respawn
-            if(damager.forceRespawn && damageable.CurrentHealth > 0)
+            if (damager.forceRespawn && damageable.CurrentHealth > 0)
             {
                 StartCoroutine(DieRespawnCoroutine(false, true));
             }

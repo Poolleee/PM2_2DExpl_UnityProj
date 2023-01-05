@@ -418,7 +418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4765575484444777728}
   - component: {fileID: 2450204044451815053}
-  m_Layer: 13
+  m_Layer: 21
   m_Name: SplashBoxEvent_Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}

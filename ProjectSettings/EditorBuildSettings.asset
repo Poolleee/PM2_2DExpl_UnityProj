@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TestScene.unity
     guid: 7fbb1762f86069a488538ed1c826d1f2
+  - enabled: 1
+    path: Assets/2DGamekit/Scenes/test scene.unity
+    guid: b72df3ddf83fbe34b9f131b8471c7ba7
   m_configObjects: {}
