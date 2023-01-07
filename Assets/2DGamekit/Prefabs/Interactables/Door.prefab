@@ -5160,6 +5160,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579b871c2402f0e4ba918e2a31c47503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SlidingDoor_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aaf3daa2310c3de4e9c73f32f5f1358a,
+      type: 2}
 --- !u!1 &1747429326985522
 GameObject:
   m_ObjectHideFlags: 0

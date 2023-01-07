@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc7921f19b1bb846a3c45e997f0a472, type: 3}
-  m_Name: D639EF01-AC0C-4B9F-8FD0-A59759DC25F3
+  m_Script: {fileID: 11500000, guid: 79b3347e31b1dd54ba321b009fb1e9da, type: 3}
+  m_Name: 3AEC6E71-808D-472A-BDBB-132B7516BF8F
   m_EditorClassIdentifier: 
-  objectName: Sliding_Door
-  id: 3371785692
-  guid: D639EF01-AC0C-4B9F-8FD0-A59759DC25F3
+  objectName: End_Moving_Platform
+  id: 794049885
+  guid: 3AEC6E71-808D-472A-BDBB-132B7516BF8F

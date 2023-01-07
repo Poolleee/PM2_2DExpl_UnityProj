@@ -16,11 +16,15 @@ namespace AK
         static const AkUniqueID ACID_POOL = 2985076563U;
         static const AkUniqueID ACIDBALL = 2653700477U;
         static const AkUniqueID ACIDBALL_HIT = 3804989535U;
+        static const AkUniqueID ACTIVATE_CRYSTAL = 3781481881U;
         static const AkUniqueID CLICKED_BUTTON = 3490698987U;
+        static const AkUniqueID END_MOVING_PLATFORM = 794049885U;
         static const AkUniqueID ENDPUSH = 546690056U;
+        static const AkUniqueID HEALTHPICKUP = 3065686491U;
         static const AkUniqueID HIGHLIGHTED_BUTTON = 3093686167U;
         static const AkUniqueID OBJECT_ACID_DIVE = 192769625U;
         static const AkUniqueID PICK_KEY = 84889690U;
+        static const AkUniqueID PICK_MELEE = 790514531U;
         static const AkUniqueID PLAY_AMBIENT = 1562304622U;
         static const AkUniqueID PLAY_BITE_ENEMY = 3864198525U;
         static const AkUniqueID PLAY_BURP_ENEMY = 3547013554U;
@@ -42,6 +46,8 @@ namespace AK
         static const AkUniqueID PRESSUREPAD = 2388937179U;
         static const AkUniqueID SLIDING_DOOR = 3371785692U;
         static const AkUniqueID SPACESHIP = 554650843U;
+        static const AkUniqueID SPIKES = 747415224U;
+        static const AkUniqueID START_MOVING_PLATFORM = 457025162U;
         static const AkUniqueID STARTPUSH = 3502095519U;
     } // namespace EVENTS
 
@@ -112,12 +118,14 @@ namespace AK
         static const AkUniqueID COLUMN = 4252072479U;
         static const AkUniqueID KEY = 1183067778U;
         static const AkUniqueID MONSTER = 2376328173U;
+        static const AkUniqueID MOVING_PLATFORM = 703211547U;
         static const AkUniqueID PLAYER = 1069431850U;
-        static const AkUniqueID PRESSURE_PAD = 1835090266U;
-        static const AkUniqueID PUSHABLE_BOX = 3669912123U;
-        static const AkUniqueID SLIDING_DOOR = 3371785692U;
-        static const AkUniqueID SPACESHIP = 554650843U;
         static const AkUniqueID UIMENU = 1846620334U;
+        static const AkUniqueID ZONE1 = 831766780U;
+        static const AkUniqueID ZONE2 = 831766783U;
+        static const AkUniqueID ZONE3 = 831766782U;
+        static const AkUniqueID ZONE4 = 831766777U;
+        static const AkUniqueID ZONE5 = 831766776U;
     } // namespace BANKS
 
     namespace BUSSES

@@ -7,6 +7,9 @@ namespace Gamekit2D
     [RequireComponent(typeof(Damager))]
     public class Bullet : MonoBehaviour
     {
+
+        //Wwise 
+        public AK.Wwise.Event OnSpawnEvent;
         public bool destroyWhenOutOfView = true;
         public bool spriteOriginallyFacesLeft;
 
@@ -29,6 +32,7 @@ namespace Gamekit2D
         {
             m_SpriteRenderer = GetComponent<SpriteRenderer>();
             m_Timer = 0.0f;
+            OnSpawnEvent.Post(gameObject);
         }
 
         public void ReturnToPool ()

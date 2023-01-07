@@ -4834,7 +4834,6 @@ GameObject:
   - component: {fileID: 114442081226539470}
   - component: {fileID: 8452264496036785275}
   - component: {fileID: 2643481878770709669}
-  - component: {fileID: 6047884556466234815}
   m_Layer: 0
   m_Name: SpitProjectille
   m_TagString: Untagged
@@ -4960,6 +4959,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20f916c2dfd5f3b47bc8cf6ae8d8452e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnSpawnEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   destroyWhenOutOfView: 0
   spriteOriginallyFacesLeft: 0
   timeBeforeAutodestruct: 5
@@ -5073,33 +5076,3 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &6047884556466234815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490519385033960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfd7aa265da80a547b89db7d6d9edb2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0b7c551183580b74eb1cec0a91f0ac5d,
-      type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}

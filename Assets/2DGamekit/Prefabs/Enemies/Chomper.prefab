@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960138f0450083543ad1d17e1352019d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 1
+  startingHealth: 3
   invulnerableAfterDamage: 1
   invulnerabilityDuration: 2
   disableOnDeath: 0
@@ -1145,6 +1145,10 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 9e815f4f58b86a44a9e21c677f0b150a,
       type: 2}
+  Monster_Burp_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   Monster_Hit_Event:
     idInternal: 0
     valueGuidInternal: 

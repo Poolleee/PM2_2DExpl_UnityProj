@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6fc7921f19b1bb846a3c45e997f0a472, type: 3}
-  m_Name: 1CB533D9-F985-4847-8FFF-1CD0A66815C4
+  m_Name: CC7E7D4B-4D9B-4ABF-AB5A-9E38619A8132
   m_EditorClassIdentifier: 
-  objectName: Pushable_box
-  id: 3669912123
-  guid: 1CB533D9-F985-4847-8FFF-1CD0A66815C4
+  objectName: Zone4
+  id: 831766777
+  guid: CC7E7D4B-4D9B-4ABF-AB5A-9E38619A8132

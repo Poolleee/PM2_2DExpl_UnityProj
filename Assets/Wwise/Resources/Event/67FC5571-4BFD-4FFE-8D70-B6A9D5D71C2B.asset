@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc7921f19b1bb846a3c45e997f0a472, type: 3}
-  m_Name: B3F62671-F5BA-4581-8D7D-7C7DAD6595E0
+  m_Script: {fileID: 11500000, guid: 79b3347e31b1dd54ba321b009fb1e9da, type: 3}
+  m_Name: 67FC5571-4BFD-4FFE-8D70-B6A9D5D71C2B
   m_EditorClassIdentifier: 
-  objectName: Spaceship
-  id: 554650843
-  guid: B3F62671-F5BA-4581-8D7D-7C7DAD6595E0
+  objectName: Start_moving_Platform
+  id: 457025162
+  guid: 67FC5571-4BFD-4FFE-8D70-B6A9D5D71C2B
