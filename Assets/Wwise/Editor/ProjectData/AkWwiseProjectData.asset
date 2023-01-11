@@ -184,66 +184,538 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 386f231b4082274fbd6fd48fe9b29504
     GuidInternal: 
-    m_lastTime: -8585300851461740023
-    List: []
+    m_lastTime: -8585288681060709908
+    List:
+    - name: Cave_reverb
+      guid: 923a2526ed4b9145a2894cf5852f7ba2
+      id: 3177428469
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Ambiences
+        ObjectType: 2
+      - ElementName: Cave
+        ObjectType: 2
+      - ElementName: Cave_reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Ambiences\Cave\Cave_reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 63392fd9824c4e4399cb38605c61d4dc
     GuidInternal: 
-    m_lastTime: -8585291352069459069
+    m_lastTime: -8585282465350813459
     List:
-    - name: Player
-      guid: e64101a39b403e4ea65080cad81b61fe
-      id: 1069431850
+    - name: Global_Soundbank
+      guid: 72c9341748b66440aa0b9c67e8a7d576
+      id: 3790971106
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Player
+      - ElementName: Global_Soundbank
         ObjectType: 7
-      Path: Default Work Unit\Player
-    - name: Scene1
-      guid: 9f4aca7b76e00d4a8337a7ce81eaa946
-      id: 1544306476
+      Path: Default Work Unit\Global_Soundbank
+    - name: spaceship
+      guid: e16a1ccd74313a4ba5195809c18f5c16
+      id: 554650843
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Scene1
+      - ElementName: spaceship
         ObjectType: 7
-      Path: Default Work Unit\Scene1
-    - name: Zone2
-      guid: 33f193b183b862489bf4050f33752646
-      id: 831766783
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Zone2
-        ObjectType: 7
-      Path: Default Work Unit\Zone2
+      Path: Default Work Unit\spaceship
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 3f77f4b458a8f1439e0884377d61ba07
     GuidInternal: 
-    m_lastTime: -8585291352069789118
+    m_lastTime: -8585282466138982286
     List: []
-  - PhysicalPath: Events\Player.wwu
+  - PhysicalPath: Events\Enemies.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
+    guid: 33aa8d5bf2c979478a7cb2b32d993923
+    GuidInternal: 
+    m_lastTime: -8585282466139207472
+    List:
+    - name: AcidBall
+      guid: 9c44305e520e084fbe8a7cc33e10bbf8
+      id: 2653700477
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 12
+      - ElementName: Spitter
+        ObjectType: 4
+      - ElementName: AcidBall
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Enemies\Spitter\AcidBall
+      maxAttenuation: 25000000
+      maxDuration: -1
+      minDuration: -1
+    - name: AcidBall_Hit
+      guid: 6ca377a802931142bd279a3100ff37cf
+      id: 3804989535
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 12
+      - ElementName: Spitter
+        ObjectType: 4
+      - ElementName: AcidBall_Hit
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Enemies\Spitter\AcidBall_Hit
+      maxAttenuation: 25000000
+      maxDuration: 988796
+      minDuration: 988796
+    - name: Play_Bite_Enemy
+      guid: 2c5efa4857a2074c8a508f9af3a31b95
+      id: 3864198525
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 12
+      - ElementName: Chomper
+        ObjectType: 4
+      - ElementName: Play_Bite_Enemy
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Enemies\Chomper\Play_Bite_Enemy
+      maxAttenuation: 25000000
+      maxDuration: 1163323
+      minDuration: 861247
+    - name: Play_Burp_Enemy
+      guid: 6f37e2d6bc48bc4181228fb0dec8abd8
+      id: 3547013554
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 12
+      - ElementName: Spitter
+        ObjectType: 4
+      - ElementName: Play_Burp_Enemy
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Enemies\Spitter\Play_Burp_Enemy
+      maxAttenuation: 25000000
+      maxDuration: 6582405
+      minDuration: 1258044
+    - name: Play_footstep_Enemy
+      guid: d760969e95c7944985f76d80f7fae9cc
+      id: 1095021605
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 12
+      - ElementName: Chomper
+        ObjectType: 4
+      - ElementName: Play_footstep_Enemy
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Enemies\Chomper\Play_footstep_Enemy
+      maxAttenuation: 25000000
+      maxDuration: 388704
+      minDuration: 291385
+    - name: Play_Hit_Enemy
+      guid: 1f378fb1803828408b3cd546f010152b
+      id: 3889018732
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 12
+      - ElementName: Chomper
+        ObjectType: 4
+      - ElementName: Play_Hit_Enemy
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Enemies\Chomper\Play_Hit_Enemy
+      maxAttenuation: 25000000
+      maxDuration: 1417698
+      minDuration: 826450
+    - name: Play_Run_Enemy
+      guid: 04142659d15d194f9fe7694dbfa1d220
+      id: 2283474596
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Enemies
+        ObjectType: 12
+      - ElementName: Chomper
+        ObjectType: 4
+      - ElementName: Play_Run_Enemy
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Enemies\Chomper\Play_Run_Enemy
+      maxAttenuation: 25000000
+      maxDuration: 1359463
+      minDuration: 441385
+  - PhysicalPath: Events\Environment.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
+    guid: 1496ff6dd0c3a747934e73019d4eead2
+    GuidInternal: 
+    m_lastTime: -8585282319400565557
+    List:
+    - name: Acid_Pool
+      guid: fcc9c0b8b7515d4aaf24a25ca7cff380
+      id: 2985076563
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Emitters
+        ObjectType: 4
+      - ElementName: Acid_Pool
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Environment\Emitters\Acid_Pool
+      maxAttenuation: 36000000
+      maxDuration: -1
+      minDuration: -1
+    - name: End_Moving_Platform
+      guid: 716eec3a8d802a47bdbb132b7516bf8f
+      id: 794049885
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Emitters
+        ObjectType: 4
+      - ElementName: Moving_Platform
+        ObjectType: 4
+      - ElementName: End_Moving_Platform
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Environment\Emitters\Moving_Platform\End_Moving_Platform
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Ambient
+      guid: 8ac7acdfaba96d4cad2e8accd5ec0cae
+      id: 1562304622
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Background
+        ObjectType: 4
+      - ElementName: Play_Ambient
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Environment\Background\Play_Ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Start_moving_Platform
+      guid: 7155fc67fd4bfe4f8d70b6a9d5d71c2b
+      id: 457025162
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Emitters
+        ObjectType: 4
+      - ElementName: Moving_Platform
+        ObjectType: 4
+      - ElementName: Start_moving_Platform
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Environment\Emitters\Moving_Platform\Start_moving_Platform
+      maxAttenuation: 25000000
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Everything Else.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: 98170a250b404f4581cdb088e6617b99
+    GuidInternal: 
+    m_lastTime: -8585282466138847053
+    List: []
+  - PhysicalPath: Events\Objects.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
+    guid: 6eb111b79b7e744d979aabd54839bd2a
+    GuidInternal: 
+    m_lastTime: -8585282466139072369
+    List:
+    - name: Activate_Crystal
+      guid: 3da1d06e4e3e6d40b10754916cecfe4b
+      id: 3781481881
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Activate_Crystal
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Activate_Crystal
+      maxAttenuation: 0
+      maxDuration: 3065068
+      minDuration: 3065068
+    - name: endPush
+      guid: 63a617dffa3ac74b968dec7f8bbbeeab
+      id: 546690056
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: PushableBox
+        ObjectType: 4
+      - ElementName: endPush
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\PushableBox\endPush
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Object_Acid_Dive
+      guid: feceecfa4e7d69448c7bb19197386b98
+      id: 192769625
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Acid
+        ObjectType: 4
+      - ElementName: Object_Acid_Dive
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Acid\Object_Acid_Dive
+      maxAttenuation: 0
+      maxDuration: 3394895
+      minDuration: 3024507
+    - name: Pick_Key
+      guid: 18f4b06de114a7449dea4cc258ef0b94
+      id: 84889690
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Pick_Key
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Pick_Key
+      maxAttenuation: 0
+      maxDuration: 3835616
+      minDuration: 3835616
+    - name: Pick_Melee
+      guid: ba66ac3fdbbbc747ad5ff519a6531fc4
+      id: 790514531
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Pick_Melee
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Pick_Melee
+      maxAttenuation: 0
+      maxDuration: 4000000
+      minDuration: 4000000
+    - name: Play_Column_Destruction
+      guid: 83537a0f8980b641be4cd45977fd2b91
+      id: 3652236365
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Column
+        ObjectType: 4
+      - ElementName: Play_Column_Destruction
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Column\Play_Column_Destruction
+      maxAttenuation: 0
+      maxDuration: 2068477
+      minDuration: 1952383
+    - name: Play_Column_Hit
+      guid: e69fee3d523bff4f8415d80e9d5a8fdd
+      id: 3833695162
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Column
+        ObjectType: 4
+      - ElementName: Play_Column_Hit
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Column\Play_Column_Hit
+      maxAttenuation: 0
+      maxDuration: 1058636
+      minDuration: 904048
+    - name: Play_hub_Door
+      guid: c91ad5cd6d197c42967f896334281a16
+      id: 1527291342
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Play_hub_Door
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Play_hub_Door
+      maxAttenuation: 0
+      maxDuration: 5333333
+      minDuration: 5333333
+    - name: Player_Acid_Dive
+      guid: 4f6581f32b04be40a527edf24972b562
+      id: 454748311
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Acid
+        ObjectType: 4
+      - ElementName: Player_Acid_Dive
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Acid\Player_Acid_Dive
+      maxAttenuation: 0
+      maxDuration: 2572849
+      minDuration: 2292148
+    - name: PressurePad
+      guid: 131c093bc652a64eaca5fbc0024096c0
+      id: 2388937179
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: PressurePad
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\PressurePad
+      maxAttenuation: 0
+      maxDuration: 2443920
+      minDuration: 2443920
+    - name: Sliding_Door
+      guid: a38e841552e28c47a6f2700923b76716
+      id: 3371785692
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Sliding_Door
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Sliding_Door
+      maxAttenuation: 0
+      maxDuration: 3973433
+      minDuration: 3860317
+    - name: Spikes
+      guid: ec65f485236da04eba6cb686d706dd76
+      id: 747415224
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Spikes
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\Spikes
+      maxAttenuation: 0
+      maxDuration: 835610
+      minDuration: 646292
+    - name: startPush
+      guid: 603a8da89d064f429b2c7753e331cfea
+      id: 3502095519
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: PushableBox
+        ObjectType: 4
+      - ElementName: startPush
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\PushableBox\startPush
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Player.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
     guid: 3e34d26832bfa6488c4d04faed3010df
     GuidInternal: 
-    m_lastTime: -8585291352069784116
+    m_lastTime: -8585282466139167471
     List:
+    - name: HealthPickup
+      guid: 0de17189a5043c45804ed5d8741764f5
+      id: 3065686491
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: HealthPickup
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Player\HealthPickup
+      maxAttenuation: 0
+      maxDuration: 5333333
+      minDuration: 5333333
     - name: Play_Crouch
       guid: 3e0041d5ba0cc44780f83fe04ed46481
       id: 3989731860
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
       - ElementName: Player
         ObjectType: 12
+      - ElementName: Movement
+        ObjectType: 4
       - ElementName: Play_Crouch
         ObjectType: 3
-      Path: Default Work Unit\Player\Play_Crouch
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_Crouch
       maxAttenuation: 0
       maxDuration: 478358
       minDuration: 413319
@@ -253,25 +725,69 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
       - ElementName: Player
         ObjectType: 12
+      - ElementName: Movement
+        ObjectType: 4
       - ElementName: Play_Footstep
         ObjectType: 3
-      Path: Default Work Unit\Player\Play_Footstep
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_Footstep
       maxAttenuation: 0
       maxDuration: 439095
       minDuration: 389095
+    - name: Play_Gun
+      guid: 5556683b683c8c4994a38cfe461f7672
+      id: 2622995180
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_Gun
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Player\Combat\Play_Gun
+      maxAttenuation: 0
+      maxDuration: 855478
+      minDuration: 855478
+    - name: Play_Hit
+      guid: 1c74ebe55247ce4883f0fdff0be68f6d
+      id: 2960666077
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Combat
+        ObjectType: 4
+      - ElementName: Play_Hit
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Player\Combat\Play_Hit
+      maxAttenuation: 0
+      maxDuration: 575253
+      minDuration: 470667
     - name: Play_Jump
       guid: a88c132cb3e1fb44a1ee780ae81409fd
       id: 3689126666
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
       - ElementName: Player
         ObjectType: 12
+      - ElementName: Movement
+        ObjectType: 4
       - ElementName: Play_Jump
         ObjectType: 3
-      Path: Default Work Unit\Player\Play_Jump
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_Jump
       maxAttenuation: 0
       maxDuration: 628358
       minDuration: 463319
@@ -281,11 +797,15 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
       - ElementName: Player
         ObjectType: 12
+      - ElementName: Movement
+        ObjectType: 4
       - ElementName: Play_Landing
         ObjectType: 3
-      Path: Default Work Unit\Player\Play_Landing
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_Landing
       maxAttenuation: 0
       maxDuration: 368555
       minDuration: 287098
@@ -295,62 +815,94 @@ MonoBehaviour:
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
       - ElementName: Player
         ObjectType: 12
+      - ElementName: Combat
+        ObjectType: 4
       - ElementName: Play_Melee
         ObjectType: 3
-      Path: Default Work Unit\Player\Play_Melee
+      Path: Default Work Unit\Everything Else\Player\Combat\Play_Melee
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1044469
+      minDuration: 985633
     - name: Play_RoboArm
       guid: a57d799dd3c02947ae3dc8eae701b1b1
       id: 1402528148
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
       - ElementName: Player
         ObjectType: 12
+      - ElementName: Movement
+        ObjectType: 4
       - ElementName: Play_RoboArm
         ObjectType: 3
-      Path: Default Work Unit\Player\Play_RoboArm
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_RoboArm
       maxAttenuation: 0
       maxDuration: 478358
       minDuration: 413319
-  - PhysicalPath: Events\Scene.wwu
+  - PhysicalPath: Events\Spceship.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
-    guid: 0b9b63d96b62b14387e814667fb8e3b5
+    guid: 778b4474eb825a4393b875b9176fc34f
     GuidInternal: 
-    m_lastTime: -8585291352069779119
+    m_lastTime: -8585282466138801958
     List:
-    - name: Acid_Pool
-      guid: fcc9c0b8b7515d4aaf24a25ca7cff380
-      id: 2985076563
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Scene
-        ObjectType: 12
-      - ElementName: Acid_Pool
-        ObjectType: 3
-      Path: Default Work Unit\Scene\Acid_Pool
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Spaceship
       guid: b2c18531c7d3134991f0a3801caeface
       id: 554650843
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Scene
+      - ElementName: Spceship
         ObjectType: 12
       - ElementName: Spaceship
         ObjectType: 3
-      Path: Default Work Unit\Scene\Spaceship
+      Path: Default Work Unit\Spceship\Spaceship
       maxAttenuation: 31000000
       maxDuration: -1
       minDuration: -1
+  - PhysicalPath: Events\UI.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
+    guid: 2751f9bb557dd749bfd3363085cd22c5
+    GuidInternal: 
+    m_lastTime: -8585282466139117369
+    List:
+    - name: Clicked_Button
+      guid: 0cc0821d502b984fa9ed52c8c66cafbb
+      id: 3490698987
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Clicked_Button
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\UI\Clicked_Button
+      maxAttenuation: 0
+      maxDuration: 299658
+      minDuration: 299658
+    - name: Highlighted_Button
+      guid: 09a9b5aa54f612458ddc8c8d27f03303
+      id: 3093686167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 12
+      - ElementName: Highlighted_Button
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\UI\Highlighted_Button
+      maxAttenuation: 0
+      maxDuration: 23488
+      minDuration: 23488
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -483,15 +1035,83 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 511abde5f23b8e4380f1c97bed2f60d4
     GuidInternal: 
-    m_lastTime: -8585300851850294929
-    List: []
+    m_lastTime: -8585282319400615621
+    List:
+    - name: Ambient_Background
+      guid: 3bea8d8074fcbf43a7bbf2fe2344a99a
+      id: 1898840822
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambient_Background
+        ObjectType: 9
+      Path: Default Work Unit\Ambient_Background
+      values:
+      - name: Cave
+        guid: ba2217db798ede40a4eec85320db23b2
+        id: 4122393694
+        PathAndIcons:
+        - ElementName: Cave
+          ObjectType: 8
+      - name: Jungle
+        guid: 3b7b5346c17c834b992a81977667ca55
+        id: 219304270
+        PathAndIcons:
+        - ElementName: Jungle
+          ObjectType: 8
+      - name: None
+        guid: e1a6b2dcf2672a4c9c2b27d3514fa1fe
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Temple
+        guid: b9a683056dfc4342b3249df5913288ae
+        id: 2323193050
+        PathAndIcons:
+        - ElementName: Temple
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 7f1b1624dc871f478bf7b81059154bb9
     GuidInternal: 
-    m_lastTime: -8585299676053346667
+    m_lastTime: -8585286972446436736
     List:
+    - name: Ambient_Switch
+      guid: 9d67a175ef629f44b312de76a3a31788
+      id: 2992401598
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ambient_Switch
+        ObjectType: 11
+      Path: Default Work Unit\Ambient_Switch
+      values:
+      - name: Cave
+        guid: 70007d38e6924e42b395c9ee8ed84448
+        id: 4122393694
+        PathAndIcons:
+        - ElementName: Cave
+          ObjectType: 10
+      - name: Jungle
+        guid: 0a1b6d5577a1b74b8d1dda19a014bb21
+        id: 219304270
+        PathAndIcons:
+        - ElementName: Jungle
+          ObjectType: 10
+      - name: Temple
+        guid: 75769068a7dfe247b8e6e7385e288341
+        id: 2323193050
+        PathAndIcons:
+        - ElementName: Temple
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Surface_Type
       guid: 990da11ce7582546b36432945d247e28
       id: 4064446173

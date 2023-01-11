@@ -40,6 +40,7 @@ namespace AK
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_LANDING = 2323405115U;
         static const AkUniqueID PLAY_MELEE = 2994689306U;
+        static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_ROBOARM = 1402528148U;
         static const AkUniqueID PLAY_RUN_ENEMY = 2283474596U;
         static const AkUniqueID PLAYER_ACID_DIVE = 454748311U;
@@ -64,6 +65,17 @@ namespace AK
                 static const AkUniqueID TEMPLE = 2323193050U;
             } // namespace STATE
         } // namespace AMBIENT_BACKGROUND
+
+        namespace MUSICZONES
+        {
+            static const AkUniqueID GROUP = 1684181167U;
+
+            namespace STATE
+            {
+                static const AkUniqueID GAMEPLAY = 89505537U;
+                static const AkUniqueID MAINMENU = 3604647259U;
+            } // namespace STATE
+        } // namespace MUSICZONES
 
     } // namespace STATES
 
@@ -113,32 +125,27 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID ACID = 3554728690U;
-        static const AkUniqueID AMBIENT = 77978275U;
-        static const AkUniqueID COLUMN = 4252072479U;
-        static const AkUniqueID KEY = 1183067778U;
-        static const AkUniqueID MONSTER = 2376328173U;
-        static const AkUniqueID MOVING_PLATFORM = 703211547U;
-        static const AkUniqueID PLAYER = 1069431850U;
-        static const AkUniqueID UIMENU = 1846620334U;
-        static const AkUniqueID ZONE1 = 831766780U;
-        static const AkUniqueID ZONE2 = 831766783U;
-        static const AkUniqueID ZONE3 = 831766782U;
-        static const AkUniqueID ZONE4 = 831766777U;
-        static const AkUniqueID ZONE5 = 831766776U;
+        static const AkUniqueID GLOBAL_SOUNDBANK = 3790971106U;
+        static const AkUniqueID SPACESHIP = 554650843U;
     } // namespace BANKS
 
     namespace BUSSES
     {
         static const AkUniqueID AMBIENCES = 1017660616U;
         static const AkUniqueID CAVE = 4122393694U;
+        static const AkUniqueID JUNGLE = 219304270U;
+        static const AkUniqueID JUNGLE_ROOFED = 2641999239U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
+        static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID SFX = 393239870U;
+        static const AkUniqueID TEMPLE = 2323193050U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
     {
         static const AkUniqueID CAVE_REVERB = 3177428469U;
+        static const AkUniqueID JUNGLE_REVERB = 2080764997U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
