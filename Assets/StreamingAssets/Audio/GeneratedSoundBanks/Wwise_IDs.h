@@ -125,6 +125,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID ACID = 3554728690U;
         static const AkUniqueID GLOBAL_SOUNDBANK = 3790971106U;
         static const AkUniqueID SPACESHIP = 554650843U;
     } // namespace BANKS
