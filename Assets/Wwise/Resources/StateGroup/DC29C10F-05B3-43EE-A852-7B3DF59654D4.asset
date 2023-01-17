@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cd9f0eff3388d4418cb51baf6bde9fb, type: 3}
+  m_Name: DC29C10F-05B3-43EE-A852-7B3DF59654D4
+  m_EditorClassIdentifier: 
+  objectName: Boss_Stage
+  id: 3170528397
+  guid: DC29C10F-05B3-43EE-A852-7B3DF59654D4

@@ -6,6 +6,7 @@ namespace Gamekit2D
 {
     public class Grenade : MonoBehaviour
     {
+        public AK.Wwise.Event GranadeExplode_Event;
         public Vector2 initialForce;
         public float timer = 1;
         public GameObject explosion;
@@ -25,6 +26,7 @@ namespace Gamekit2D
             var eGo = Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(eGo, explosionTimer);
             Destroy(gameObject);
+            GranadeExplode_Event.Post(gameObject);
         }
     }
 }
