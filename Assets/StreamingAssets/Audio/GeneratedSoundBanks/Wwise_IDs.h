@@ -20,6 +20,9 @@ namespace AK
         static const AkUniqueID BOSS_BEAM_LASER_POINTER = 1100159494U;
         static const AkUniqueID BOSS_BEAM_PROJECTILE_FLY = 1993373504U;
         static const AkUniqueID BOSS_BEAM_PROJECTILE_HIT = 1843360748U;
+        static const AkUniqueID BOSS_DAMAGE_STAGE2 = 1389767929U;
+        static const AkUniqueID BOSS_DAMAGE_STAGE3 = 1389767928U;
+        static const AkUniqueID BOSS_HIT = 1142827732U;
         static const AkUniqueID BOSS_SHIELD_HIT = 4050461528U;
         static const AkUniqueID BOSS_SHIELD_OFF = 4133216652U;
         static const AkUniqueID BOSS_SHIELD_ON = 2923163814U;
@@ -60,6 +63,7 @@ namespace AK
         static const AkUniqueID PLAY_ROBOARM = 1402528148U;
         static const AkUniqueID PLAY_RUN_ENEMY = 2283474596U;
         static const AkUniqueID PLAYER_ACID_DIVE = 454748311U;
+        static const AkUniqueID PLAYINFOPOST = 272156789U;
         static const AkUniqueID PRESSUREPAD = 2388937179U;
         static const AkUniqueID SLIDING_DOOR = 3371785692U;
         static const AkUniqueID SPACESHIP = 554650843U;

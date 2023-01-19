@@ -184,7 +184,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 386f231b4082274fbd6fd48fe9b29504
     GuidInternal: 
-    m_lastTime: -8585288681060709908
+    m_lastTime: -8585278351521963855
     List:
     - name: Cave_reverb
       guid: 923a2526ed4b9145a2894cf5852f7ba2
@@ -201,13 +201,52 @@ MonoBehaviour:
       - ElementName: Cave_reverb
         ObjectType: 1
       Path: Default Work Unit\Master Audio Bus\Ambiences\Cave\Cave_reverb
+    - name: Jungle_Reverb
+      guid: eb902b9badce9548a25ae772658ee1db
+      id: 2080764997
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Ambiences
+        ObjectType: 2
+      - ElementName: Jungle
+        ObjectType: 2
+      - ElementName: Jungle_Reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Ambiences\Jungle\Jungle_Reverb
+    - name: Temple_Reverb
+      guid: f4f56d4c02aa524a9e0315b08b26d487
+      id: 708479929
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Ambiences
+        ObjectType: 2
+      - ElementName: Temple
+        ObjectType: 2
+      - ElementName: Temple_Reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Ambiences\Temple\Temple_Reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 63392fd9824c4e4399cb38605c61d4dc
     GuidInternal: 
-    m_lastTime: -8585282465350813459
+    m_lastTime: -8585279068560153928
     List:
+    - name: Acid
+      guid: e717c83a1dcac94197e67396da903cec
+      id: 3554728690
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Acid
+        ObjectType: 7
+      Path: Default Work Unit\Acid
     - name: Global_Soundbank
       guid: 72c9341748b66440aa0b9c67e8a7d576
       id: 3790971106
@@ -227,11 +266,351 @@ MonoBehaviour:
         ObjectType: 7
       Path: Default Work Unit\spaceship
   EventWwu:
+  - PhysicalPath: Events\Acid.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: 28f60c5fe56bd24390c44a3fa9dd216e
+    GuidInternal: 
+    m_lastTime: -8585280024992186287
+    List:
+    - name: Acid_Pool
+      guid: fcc9c0b8b7515d4aaf24a25ca7cff380
+      id: 2985076563
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Acid
+        ObjectType: 12
+      - ElementName: Acid_Pool
+        ObjectType: 3
+      Path: Default Work Unit\Acid\Acid_Pool
+      maxAttenuation: 36000000
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Boss.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
+    guid: 187f5920f053b84295c093251cede5d5
+    GuidInternal: 
+    m_lastTime: -8585275696757639938
+    List:
+    - name: Boss_Beam_Laser_Pointer
+      guid: e4b5964a726a514a8ca178057af56f13
+      id: 1100159494
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Beam_Attack
+        ObjectType: 4
+      - ElementName: Boss_Beam_Laser_Pointer
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Beam_Attack\Boss_Beam_Laser_Pointer
+      maxAttenuation: 50000000
+      maxDuration: 3121426
+      minDuration: 2233478
+    - name: Boss_Beam_Projectile_Fly
+      guid: 363ab7c7becad94884fc2531e352b4e1
+      id: 1993373504
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Beam_Attack
+        ObjectType: 4
+      - ElementName: Boss_Beam_Projectile_Fly
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Beam_Attack\Boss_Beam_Projectile_Fly
+      maxAttenuation: 40000000
+      maxDuration: 3838063
+      minDuration: 3838063
+    - name: Boss_Beam_Projectile_Hit
+      guid: 913dfdc842bd4c40ac1032e00047fa08
+      id: 1843360748
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Beam_Attack
+        ObjectType: 4
+      - ElementName: Boss_Beam_Projectile_Hit
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Beam_Attack\Boss_Beam_Projectile_Hit
+      maxAttenuation: 40000000
+      maxDuration: 1225705
+      minDuration: 701893
+    - name: Boss_Damage_Stage2
+      guid: 4450eb35bce9e14289b5a376faca54c5
+      id: 1389767929
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Boss_Damage_Stage2
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Boss_Damage_Stage2
+      maxAttenuation: 35000000
+      maxDuration: -1
+      minDuration: -1
+    - name: Boss_Damage_Stage3
+      guid: 8df7eee10ad56244b28c00b3c23c7e7f
+      id: 1389767928
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Boss_Damage_Stage3
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Boss_Damage_Stage3
+      maxAttenuation: 35000000
+      maxDuration: -1
+      minDuration: -1
+    - name: Boss_Hit
+      guid: 2afc03b4da538e4b96e46d258425c0dd
+      id: 1142827732
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Boss_Hit
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Boss_Hit
+      maxAttenuation: 50000000
+      maxDuration: 1212013
+      minDuration: 1016190
+    - name: Boss_shield_Hit
+      guid: 813c3a29b6131b48a6f9a4f017c1e6b5
+      id: 4050461528
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Shield
+        ObjectType: 4
+      - ElementName: Boss_shield_Hit
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Shield\Boss_shield_Hit
+      maxAttenuation: 35000000
+      maxDuration: 890588
+      minDuration: 629741
+    - name: Boss_Shield_Off
+      guid: f906d83872f37443bda96c625ac26286
+      id: 4133216652
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Shield
+        ObjectType: 4
+      - ElementName: Boss_Shield_Off
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Shield\Boss_Shield_Off
+      maxAttenuation: 50000000
+      maxDuration: -1
+      minDuration: -1
+    - name: Boss_Shield_On
+      guid: b0991e673b7d8040bea58b99a7d22ee5
+      id: 2923163814
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Shield
+        ObjectType: 4
+      - ElementName: Boss_Shield_On
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Shield\Boss_Shield_On
+      maxAttenuation: 35000000
+      maxDuration: -1
+      minDuration: -1
+    - name: Granade_Explode
+      guid: 07fef80d670d214283994728376b25f1
+      id: 829280915
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Grnade_Attack
+        ObjectType: 4
+      - ElementName: Granade_Explode
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Grnade_Attack\Granade_Explode
+      maxAttenuation: 50000000
+      maxDuration: 5121362
+      minDuration: 5121362
+    - name: Granade_Fly
+      guid: a9d2c49d2bc9d74e92f911325a5baa7c
+      id: 2290418423
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Grnade_Attack
+        ObjectType: 4
+      - ElementName: Granade_Fly
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Grnade_Attack\Granade_Fly
+      maxAttenuation: 50000000
+      maxDuration: -1
+      minDuration: -1
+    - name: Granade_Generate
+      guid: 866b9d8ebd626641a9f7c2f5f9db4fc7
+      id: 797532737
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Grnade_Attack
+        ObjectType: 4
+      - ElementName: Granade_Generate
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Grnade_Attack\Granade_Generate
+      maxAttenuation: 50000000
+      maxDuration: 2032541
+      minDuration: 2032541
+    - name: Play_Beam_Attack_Boss
+      guid: cbcf089bf03ce3498bfb288af473e619
+      id: 1407284710
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Beam_Attack
+        ObjectType: 4
+      - ElementName: Play_Beam_Attack_Boss
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Beam_Attack\Play_Beam_Attack_Boss
+      maxAttenuation: 50000000
+      maxDuration: 2541617
+      minDuration: 2264323
+    - name: Play_Beam_Charge_Boss
+      guid: 6564de3fe0810940a21a6bec9fe30cc4
+      id: 1455790954
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Beam_Attack
+        ObjectType: 4
+      - ElementName: Play_Beam_Charge_Boss
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Beam_Attack\Play_Beam_Charge_Boss
+      maxAttenuation: 50000000
+      maxDuration: 1967967
+      minDuration: 1753259
+    - name: Play_CryBoss
+      guid: 1783ba29517cac4da3fd51264111d99a
+      id: 3691030833
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Play_CryBoss
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Play_CryBoss
+      maxAttenuation: 50000000
+      maxDuration: 2166960
+      minDuration: 1000000
+    - name: Play_ElectricAttack
+      guid: b1e75902f82a854181abadfd1c78d0b3
+      id: 2261495667
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Electric_Attack
+        ObjectType: 4
+      - ElementName: Play_ElectricAttack
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Electric_Attack\Play_ElectricAttack
+      maxAttenuation: 50000000
+      maxDuration: 2278231
+      minDuration: 1856478
+    - name: Play_ElectricCharge
+      guid: c45937a303723544983add836adc90fd
+      id: 1371651567
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Electric_Attack
+        ObjectType: 4
+      - ElementName: Play_ElectricCharge
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Electric_Attack\Play_ElectricCharge
+      maxAttenuation: 50000000
+      maxDuration: 1150064
+      minDuration: 1150064
+    - name: Play_Footstep_Boss
+      guid: 590fdefd4e8f9e4e8067ed37498ac4fe
+      id: 1448726960
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Boss
+        ObjectType: 12
+      - ElementName: Play_Footstep_Boss
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Boss\Play_Footstep_Boss
+      maxAttenuation: 50000000
+      maxDuration: 3188528
+      minDuration: 2840655
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 3f77f4b458a8f1439e0884377d61ba07
     GuidInternal: 
-    m_lastTime: -8585282466138982286
+    m_lastTime: -8585280024992236286
     List: []
   - PhysicalPath: Events\Enemies.wwu
     ParentPhysicalPath: Events\Everything Else.wwu
@@ -369,26 +748,8 @@ MonoBehaviour:
     ParentPhysicalPath: Events\Everything Else.wwu
     guid: 1496ff6dd0c3a747934e73019d4eead2
     GuidInternal: 
-    m_lastTime: -8585282319400565557
+    m_lastTime: -8585279190657608915
     List:
-    - name: Acid_Pool
-      guid: fcc9c0b8b7515d4aaf24a25ca7cff380
-      id: 2985076563
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Everything Else
-        ObjectType: 12
-      - ElementName: Environment
-        ObjectType: 12
-      - ElementName: Emitters
-        ObjectType: 4
-      - ElementName: Acid_Pool
-        ObjectType: 3
-      Path: Default Work Unit\Everything Else\Environment\Emitters\Acid_Pool
-      maxAttenuation: 36000000
-      maxDuration: -1
-      minDuration: -1
     - name: End_Moving_Platform
       guid: 716eec3a8d802a47bdbb132b7516bf8f
       id: 794049885
@@ -409,6 +770,24 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Info_Post
+      guid: 5b494da8c262f846bfb6079c394ab3ad
+      id: 2963264626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Emitters
+        ObjectType: 4
+      - ElementName: Info_Post
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Environment\Emitters\Info_Post
+      maxAttenuation: 5000000
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Ambient
       guid: 8ac7acdfaba96d4cad2e8accd5ec0cae
       id: 1562304622
@@ -451,13 +830,35 @@ MonoBehaviour:
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: 98170a250b404f4581cdb088e6617b99
     GuidInternal: 
-    m_lastTime: -8585282466138847053
+    m_lastTime: -8585278931488405596
     List: []
+  - PhysicalPath: Events\Music.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
+    guid: 5264c0c3b1da664d91b5bdff019e3990
+    GuidInternal: 
+    m_lastTime: -8585281599707864580
+    List:
+    - name: Play_Music
+      guid: a545e91d008158419a3a48599aab9730
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 12
+      - ElementName: Play_Music
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Music\Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Objects.wwu
     ParentPhysicalPath: Events\Everything Else.wwu
     guid: 6eb111b79b7e744d979aabd54839bd2a
     GuidInternal: 
-    m_lastTime: -8585282466139072369
+    m_lastTime: -8585275609386880005
     List:
     - name: Activate_Crystal
       guid: 3da1d06e4e3e6d40b10754916cecfe4b
@@ -613,6 +1014,22 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2572849
       minDuration: 2292148
+    - name: PlayInfoPost
+      guid: 2bf9605429f8f74fb470368bb8df8152
+      id: 272156789
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Everything Else
+        ObjectType: 12
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: PlayInfoPost
+        ObjectType: 3
+      Path: Default Work Unit\Everything Else\Objects\PlayInfoPost
+      maxAttenuation: 0
+      maxDuration: 4944161
+      minDuration: 4404747
     - name: PressurePad
       guid: 131c093bc652a64eaca5fbc0024096c0
       id: 2388937179
@@ -753,8 +1170,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Everything Else\Player\Combat\Play_Gun
       maxAttenuation: 0
-      maxDuration: 855478
-      minDuration: 855478
+      maxDuration: 906348
+      minDuration: 807464
     - name: Play_Hit
       guid: 1c74ebe55247ce4883f0fdff0be68f6d
       id: 2960666077
@@ -825,8 +1242,8 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\Everything Else\Player\Combat\Play_Melee
       maxAttenuation: 0
-      maxDuration: 1044469
-      minDuration: 985633
+      maxDuration: 1267604
+      minDuration: 1129307
     - name: Play_RoboArm
       guid: a57d799dd3c02947ae3dc8eae701b1b1
       id: 1402528148
@@ -869,7 +1286,7 @@ MonoBehaviour:
     ParentPhysicalPath: Events\Everything Else.wwu
     guid: 2751f9bb557dd749bfd3363085cd22c5
     GuidInternal: 
-    m_lastTime: -8585282466139117369
+    m_lastTime: -8585280024992328177
     List:
     - name: Clicked_Button
       guid: 0cc0821d502b984fa9ed52c8c66cafbb
@@ -1035,7 +1452,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 511abde5f23b8e4380f1c97bed2f60d4
     GuidInternal: 
-    m_lastTime: -8585282319400615621
+    m_lastTime: -8585279035504619135
     List:
     - name: Ambient_Background
       guid: 3bea8d8074fcbf43a7bbf2fe2344a99a
@@ -1070,6 +1487,98 @@ MonoBehaviour:
         id: 2323193050
         PathAndIcons:
         - ElementName: Temple
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Boss_Stage
+      guid: 0fc129dcb305ee43a8527b3df59654d4
+      id: 3170528397
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Boss_Stage
+        ObjectType: 9
+      Path: Default Work Unit\Boss_Stage
+      values:
+      - name: boss_out
+        guid: dbb6cb2d271f50439221754694d6e877
+        id: 1612748095
+        PathAndIcons:
+        - ElementName: boss_out
+          ObjectType: 8
+      - name: enter
+        guid: 77023d44350db64daafac665abd1ee58
+        id: 2368844905
+        PathAndIcons:
+        - ElementName: enter
+          ObjectType: 8
+      - name: exit
+        guid: 2f139c217f7dbc4fb70a0a48eb2e3d42
+        id: 26822469
+        PathAndIcons:
+        - ElementName: exit
+          ObjectType: 8
+      - name: None
+        guid: 42f54d3407e4a3448d1189827a7968ac
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Stage1
+        guid: f33c33e9b1223946a0980d785836aef1
+        id: 936729722
+        PathAndIcons:
+        - ElementName: Stage1
+          ObjectType: 8
+      - name: Stage2
+        guid: ceb82cba064d7b429be434f5c5d46671
+        id: 936729721
+        PathAndIcons:
+        - ElementName: Stage2
+          ObjectType: 8
+      - name: Stage3
+        guid: efb9d3597d872b4aa25afc799bba88a0
+        id: 936729720
+        PathAndIcons:
+        - ElementName: Stage3
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: MusicZones
+      guid: 1baa53f9368eb143b7aed060a79b9f75
+      id: 1684181167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicZones
+        ObjectType: 9
+      Path: Default Work Unit\MusicZones
+      values:
+      - name: Boss_Room
+        guid: de62864d986c9a45a7183606c6b90fd1
+        id: 3359767828
+        PathAndIcons:
+        - ElementName: Boss_Room
+          ObjectType: 8
+      - name: GamePlay
+        guid: 46ad28f9f047cc499c5138dfab9be093
+        id: 89505537
+        PathAndIcons:
+        - ElementName: GamePlay
+          ObjectType: 8
+      - name: MainMenu
+        guid: 5ed8a3e3103c6245af9f2548e9e670b6
+        id: 3604647259
+        PathAndIcons:
+        - ElementName: MainMenu
+          ObjectType: 8
+      - name: None
+        guid: 93ce436bc9bfe245bc54833d0f766c91
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
           ObjectType: 8
       ValueGuids: []
       ValueIcons: []
@@ -1148,8 +1657,8 @@ MonoBehaviour:
   - /PM2_2DExpl_WwiseProject
   - /PM2_2DExpl_WwiseProject/Events
   - /PM2_2DExpl_WwiseProject/Events/Default Work Unit
-  - /PM2_2DExpl_WwiseProject/Switches
-  - /PM2_2DExpl_WwiseProject/Switches/Default Work Unit
-  - /PM2_2DExpl_WwiseProject/Switches/Default Work Unit/Surface_Type
+  - /PM2_2DExpl_WwiseProject/Events/Default Work Unit/Acid
+  - /PM2_2DExpl_WwiseProject/Events/Default Work Unit/Everything Else
+  - /PM2_2DExpl_WwiseProject/Events/Default Work Unit/Everything Else/Objects
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -56,6 +56,9 @@ public class MissileGolem : MonoBehaviour
     public RandomAudioPlayer takingDamage;
     public RandomAudioPlayer shieldUpAudioPlayer;
     public RandomAudioPlayer shieldDownAudioPlayer;
+
+    public PlayerBossAnimationsEvents PlayerBossAnimationEvents;
+    //Elementi Audio Wwise
     [Space]
     public AudioSource roundDeathSource;
     public AudioClip startRound2Clip;
@@ -360,6 +363,10 @@ public class MissileGolem : MonoBehaviour
     public void Damaged(Damager damager, Damageable damageable)
     {
         takingDamage.PlayRandomSound();
+
+        PlayerBossAnimationEvents = GameObject.Find("GunnerMaster").GetComponent<PlayerBossAnimationsEvents>();
+        PlayerBossAnimationEvents.PlayHitBoss();
+        //script per HitBoss Wwise
 
         m_CurrentHealth -= damager.damage;
         healthSlider.value = m_CurrentHealth;

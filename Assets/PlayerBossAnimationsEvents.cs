@@ -11,6 +11,7 @@ public class PlayerBossAnimationsEvents : MonoBehaviour
     public AK.Wwise.Event ElectricBossAttack_Event;
     public AK.Wwise.Event ElectricBossCharge_Event;
     public AK.Wwise.Event GranadeBossThrow_Event;
+    public AK.Wwise.Event HitBoss_Event;
 
     public void PlayBossFootstep()
     {
@@ -46,4 +47,10 @@ public class PlayerBossAnimationsEvents : MonoBehaviour
     {
         GranadeBossThrow_Event.Post(gameObject);
     }
+
+    public void PlayHitBoss()
+    {
+        HitBoss_Event.Post(gameObject);
+    }
+
 }
