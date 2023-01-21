@@ -6,12 +6,15 @@ public class PlayerBossAnimationsEvents : MonoBehaviour
 {
     public AK.Wwise.Event Footstep_Event;
     public AK.Wwise.Event CryBoss_Event;
+    public AK.Wwise.Event SufferBoss_Event;
     public AK.Wwise.Event BeamBossAttack_Event;
     public AK.Wwise.Event BeamBossCharge_Event;
     public AK.Wwise.Event ElectricBossAttack_Event;
     public AK.Wwise.Event ElectricBossCharge_Event;
     public AK.Wwise.Event GranadeBossThrow_Event;
     public AK.Wwise.Event HitBoss_Event;
+    public AK.Wwise.Event DieBoss_Event;
+    public AK.Wwise.Event EntranceBossAnimation_Event;
 
     public void PlayBossFootstep()
     {
@@ -22,6 +25,12 @@ public class PlayerBossAnimationsEvents : MonoBehaviour
     {
         CryBoss_Event.Post(gameObject);
     }
+
+    public void PlaySufferBoss()
+    {
+        SufferBoss_Event.Post(gameObject);
+    }
+
 
     public void PlayElectricBossAttack()
     {
@@ -53,4 +62,13 @@ public class PlayerBossAnimationsEvents : MonoBehaviour
         HitBoss_Event.Post(gameObject);
     }
 
+    public void PlayDieBoss()
+    {
+        DieBoss_Event.Post(gameObject);
+    }
+
+    public void PlayEntranceBossAnimation()
+    {
+        EntranceBossAnimation_Event.Post(gameObject);
+    }
 }

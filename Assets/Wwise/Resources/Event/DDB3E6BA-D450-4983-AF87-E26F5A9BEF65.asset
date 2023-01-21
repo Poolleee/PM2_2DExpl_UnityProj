@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d230ea9ad88a8c446a43ae707d44b615, type: 3}
-  m_Name: 75A1679D-62EF-449F-B312-DE76A3A31788
+  m_Script: {fileID: 11500000, guid: 79b3347e31b1dd54ba321b009fb1e9da, type: 3}
+  m_Name: DDB3E6BA-D450-4983-AF87-E26F5A9BEF65
   m_EditorClassIdentifier: 
-  objectName: Ambient_Switch
-  id: 2992401598
-  guid: 75A1679D-62EF-449F-B312-DE76A3A31788
+  objectName: Play_Die_Animation
+  id: 3500828431
+  guid: DDB3E6BA-D450-4983-AF87-E26F5A9BEF65

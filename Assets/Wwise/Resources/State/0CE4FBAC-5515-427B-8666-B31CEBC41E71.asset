@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d484a20a2ed62c47977f437d17d7a81, type: 3}
-  m_Name: 556D1B0A-A177-4BB7-8D1D-DA19A014BB21
+  m_Script: {fileID: 11500000, guid: d2f63cb320a50fe4bb65e7ee8f04bf6b, type: 3}
+  m_Name: 0CE4FBAC-5515-427B-8666-B31CEBC41E71
   m_EditorClassIdentifier: 
-  objectName: Jungle
-  id: 219304270
-  guid: 556D1B0A-A177-4BB7-8D1D-DA19A014BB21
-  WwiseSwitchGroupReference: {fileID: 11400000, guid: 6237c299a7c7bc84190ff7b324b7d777,
+  objectName: Pause
+  id: 3092587493
+  guid: 0CE4FBAC-5515-427B-8666-B31CEBC41E71
+  WwiseStateGroupReference: {fileID: 11400000, guid: e466225a72e0d4049af40cf7d464b170,
     type: 2}

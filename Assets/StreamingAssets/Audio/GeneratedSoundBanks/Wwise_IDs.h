@@ -47,8 +47,10 @@ namespace AK
         static const AkUniqueID PLAY_COLUMN_HIT = 3833695162U;
         static const AkUniqueID PLAY_CROUCH = 3989731860U;
         static const AkUniqueID PLAY_CRYBOSS = 3691030833U;
+        static const AkUniqueID PLAY_DIE_ANIMATION = 3500828431U;
         static const AkUniqueID PLAY_ELECTRICATTACK = 2261495667U;
         static const AkUniqueID PLAY_ELECTRICCHARGE = 1371651567U;
+        static const AkUniqueID PLAY_ENTRANCE_ANIMATION_EVENT = 2058323730U;
         static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
         static const AkUniqueID PLAY_FOOTSTEP_BOSS = 1448726960U;
         static const AkUniqueID PLAY_FOOTSTEP_ENEMY = 1095021605U;
@@ -62,6 +64,7 @@ namespace AK
         static const AkUniqueID PLAY_MUSIC = 2932040671U;
         static const AkUniqueID PLAY_ROBOARM = 1402528148U;
         static const AkUniqueID PLAY_RUN_ENEMY = 2283474596U;
+        static const AkUniqueID PLAY_SUFFER_BOSS = 3491282541U;
         static const AkUniqueID PLAYER_ACID_DIVE = 454748311U;
         static const AkUniqueID PLAYINFOPOST = 272156789U;
         static const AkUniqueID PRESSUREPAD = 2388937179U;
@@ -113,22 +116,21 @@ namespace AK
             } // namespace STATE
         } // namespace MUSICZONES
 
+        namespace UIMENUSTATE
+        {
+            static const AkUniqueID GROUP = 2827200325U;
+
+            namespace STATE
+            {
+                static const AkUniqueID GAMEPLAY = 89505537U;
+                static const AkUniqueID PAUSE = 3092587493U;
+            } // namespace STATE
+        } // namespace UIMENUSTATE
+
     } // namespace STATES
 
     namespace SWITCHES
     {
-        namespace AMBIENT_SWITCH
-        {
-            static const AkUniqueID GROUP = 2992401598U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID CAVE = 4122393694U;
-                static const AkUniqueID JUNGLE = 219304270U;
-                static const AkUniqueID TEMPLE = 2323193050U;
-            } // namespace SWITCH
-        } // namespace AMBIENT_SWITCH
-
         namespace SURFACE_TYPE
         {
             static const AkUniqueID GROUP = 4064446173U;
@@ -162,6 +164,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID ACID = 3554728690U;
+        static const AkUniqueID BOSS = 1560169506U;
         static const AkUniqueID GLOBAL_SOUNDBANK = 3790971106U;
         static const AkUniqueID SPACESHIP = 554650843U;
     } // namespace BANKS
