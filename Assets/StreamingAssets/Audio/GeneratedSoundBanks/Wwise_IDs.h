@@ -146,6 +146,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID CAVE_DEPTH = 2102545800U;
         static const AkUniqueID PLAYBACK_RATE = 1524500807U;
         static const AkUniqueID RPM = 796049864U;
         static const AkUniqueID SS_AIR_FEAR = 1351367891U;
@@ -173,11 +174,13 @@ namespace AK
     {
         static const AkUniqueID AMBIENCES = 1017660616U;
         static const AkUniqueID CAVE = 4122393694U;
+        static const AkUniqueID DUCKING = 2712164154U;
+        static const AkUniqueID EXTERNAL = 1442075084U;
         static const AkUniqueID JUNGLE = 219304270U;
-        static const AkUniqueID JUNGLE_ROOFED = 2641999239U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID REVERBS = 3545700988U;
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID TEMPLE = 2323193050U;
     } // namespace BUSSES
@@ -185,6 +188,7 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID CAVE_REVERB = 3177428469U;
+        static const AkUniqueID EXTERNAL_CAVE_REVERB = 3971389731U;
         static const AkUniqueID JUNGLE_REVERB = 2080764997U;
         static const AkUniqueID TEMPLE_REVERB = 708479929U;
     } // namespace AUX_BUSSES

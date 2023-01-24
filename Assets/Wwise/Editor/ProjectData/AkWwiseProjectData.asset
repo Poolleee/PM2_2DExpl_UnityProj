@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 5366461a6544a242b4c98f9b9b762fda
     GuidInternal: 
-    m_lastTime: -8585272861844775808
+    m_lastTime: -8585300851849858645
     List: []
-  - PhysicalPath: Virtual Acoustics/Factory Reflect Acoustic Textures.wwu
+  - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
     ParentPhysicalPath: 
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585272861844775808
+    m_lastTime: -8585305849741872622
     List:
     - name: Acoustic_Banner
       guid: f2532d2fccda8e408b8898b1b52a26d6
@@ -35,7 +35,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Acoustic_Banner
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Acoustic_Banner
+      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
     - name: Anechoic
       guid: 32c20a8be202de4ebeacfdd1a900e3ed
       id: 1873957695
@@ -46,7 +46,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Anechoic
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Anechoic
+      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
     - name: Brick
       guid: a9a586b004f2534ca838bdb18b18f6d6
       id: 504532776
@@ -57,7 +57,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Brick
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Brick
+      Path: Factory Reflect Acoustic Textures\Textures\Brick
     - name: Carpet
       guid: 8975223456dc604296c4b9f4b669092b
       id: 2412606308
@@ -68,7 +68,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Carpet
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Carpet
+      Path: Factory Reflect Acoustic Textures\Textures\Carpet
     - name: Concrete
       guid: 001cf85c9628e04aaf7c3080bdaba682
       id: 841620460
@@ -79,7 +79,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Concrete
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Concrete
+      Path: Factory Reflect Acoustic Textures\Textures\Concrete
     - name: Cork_Tiles
       guid: 19c9d2305f92434189063dbb3c4ae5e2
       id: 3195498748
@@ -90,7 +90,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Cork_Tiles
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Cork_Tiles
+      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
     - name: Curtains
       guid: 339ee6f8975c6849b508a1535f2d66e8
       id: 2928161104
@@ -101,7 +101,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Curtains
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Curtains
+      Path: Factory Reflect Acoustic Textures\Textures\Curtains
     - name: Drywall
       guid: f4e3a4680b4c8746a8b8a84db93dbc8f
       id: 3670307564
@@ -112,7 +112,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Drywall
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Drywall
+      Path: Factory Reflect Acoustic Textures\Textures\Drywall
     - name: Fabric
       guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
       id: 1970351858
@@ -123,7 +123,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Fabric
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Fabric
+      Path: Factory Reflect Acoustic Textures\Textures\Fabric
     - name: Mountain
       guid: 313793c51a00b44a98dd9b033a8c8eab
       id: 513139656
@@ -134,7 +134,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Mountain
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Mountain
+      Path: Factory Reflect Acoustic Textures\Textures\Mountain
     - name: Tile
       guid: c4da82a82a13b747ba9db9907ba29cc0
       id: 2637588553
@@ -145,7 +145,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Tile
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Tile
+      Path: Factory Reflect Acoustic Textures\Textures\Tile
     - name: Wood
       guid: 96bcff1fe76f9e48ba6c7c14a71391ae
       id: 2058049674
@@ -156,7 +156,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Wood
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Wood
+      Path: Factory Reflect Acoustic Textures\Textures\Wood
     - name: Wood_Bright
       guid: e5d1857ba2c1634e9a13cec54b641adc
       id: 4262522749
@@ -167,7 +167,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Wood_Bright
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Wood_Bright
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
     - name: Wood_Deep
       guid: 8e474652dac50c4ea0dec98d1479529a
       id: 1755085759
@@ -178,13 +178,13 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Wood_Deep
         ObjectType: 15
-      Path: Factory Reflect Acoustic Textures/Textures/Wood_Deep
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 386f231b4082274fbd6fd48fe9b29504
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585271998846592603
     List:
     - name: Cave_reverb
       guid: 923a2526ed4b9145a2894cf5852f7ba2
@@ -200,7 +200,7 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: Cave_reverb
         ObjectType: 1
-      Path: Default Work Unit/Master Audio Bus/Ambiences/Cave/Cave_reverb
+      Path: Default Work Unit\Master Audio Bus\Ambiences\Cave\Cave_reverb
     - name: Jungle_Reverb
       guid: eb902b9badce9548a25ae772658ee1db
       id: 2080764997
@@ -215,7 +215,7 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: Jungle_Reverb
         ObjectType: 1
-      Path: Default Work Unit/Master Audio Bus/Ambiences/Jungle/Jungle_Reverb
+      Path: Default Work Unit\Master Audio Bus\Ambiences\Jungle\Jungle_Reverb
     - name: Temple_Reverb
       guid: f4f56d4c02aa524a9e0315b08b26d487
       id: 708479929
@@ -230,13 +230,13 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: Temple_Reverb
         ObjectType: 1
-      Path: Default Work Unit/Master Audio Bus/Ambiences/Temple/Temple_Reverb
+      Path: Default Work Unit\Master Audio Bus\Ambiences\Temple\Temple_Reverb
   BankWwu:
-  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 63392fd9824c4e4399cb38605c61d4dc
     GuidInternal: 
-    m_lastTime: -8585272861844775808
+    m_lastTime: -8585273130823272633
     List:
     - name: Acid
       guid: e717c83a1dcac94197e67396da903cec
@@ -246,7 +246,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Acid
         ObjectType: 7
-      Path: Default Work Unit/Acid
+      Path: Default Work Unit\Acid
     - name: Boss
       guid: 33d0a6126740cf44b34f24fdfe13914d
       id: 1560169506
@@ -255,7 +255,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Boss
         ObjectType: 7
-      Path: Default Work Unit/Boss
+      Path: Default Work Unit\Boss
     - name: Global_Soundbank
       guid: 72c9341748b66440aa0b9c67e8a7d576
       id: 3790971106
@@ -264,7 +264,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Global_Soundbank
         ObjectType: 7
-      Path: Default Work Unit/Global_Soundbank
+      Path: Default Work Unit\Global_Soundbank
     - name: spaceship
       guid: e16a1ccd74313a4ba5195809c18f5c16
       id: 554650843
@@ -273,13 +273,13 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: spaceship
         ObjectType: 7
-      Path: Default Work Unit/spaceship
+      Path: Default Work Unit\spaceship
   EventWwu:
-  - PhysicalPath: Events/Acid.wwu
-    ParentPhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Acid.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: 28f60c5fe56bd24390c44a3fa9dd216e
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585280024992186287
     List:
     - name: Acid_Pool
       guid: fcc9c0b8b7515d4aaf24a25ca7cff380
@@ -291,15 +291,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Acid_Pool
         ObjectType: 3
-      Path: Default Work Unit/Acid/Acid_Pool
-      maxAttenuation: 16
+      Path: Default Work Unit\Acid\Acid_Pool
+      maxAttenuation: 16000000
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events/Boss.wwu
-    ParentPhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Boss.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: 187f5920f053b84295c093251cede5d5
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585273104337380640
     List:
     - name: Boss_Beam_Laser_Pointer
       guid: e4b5964a726a514a8ca178057af56f13
@@ -313,7 +313,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Boss_Beam_Laser_Pointer
         ObjectType: 3
-      Path: Default Work Unit/Boss/Beam_Attack/Boss_Beam_Laser_Pointer
+      Path: Default Work Unit\Boss\Beam_Attack\Boss_Beam_Laser_Pointer
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -329,10 +329,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Boss_Beam_Projectile_Fly
         ObjectType: 3
-      Path: Default Work Unit/Boss/Beam_Attack/Boss_Beam_Projectile_Fly
-      maxAttenuation: 40
-      maxDuration: 3.838063
-      minDuration: 3.838063
+      Path: Default Work Unit\Boss\Beam_Attack\Boss_Beam_Projectile_Fly
+      maxAttenuation: 40000000
+      maxDuration: 3838063
+      minDuration: 3838063
     - name: Boss_Beam_Projectile_Hit
       guid: 913dfdc842bd4c40ac1032e00047fa08
       id: 1843360748
@@ -345,10 +345,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Boss_Beam_Projectile_Hit
         ObjectType: 3
-      Path: Default Work Unit/Boss/Beam_Attack/Boss_Beam_Projectile_Hit
-      maxAttenuation: 40
-      maxDuration: 1.375807
-      minDuration: 0.625316
+      Path: Default Work Unit\Boss\Beam_Attack\Boss_Beam_Projectile_Hit
+      maxAttenuation: 40000000
+      maxDuration: 1375807
+      minDuration: 625316
     - name: Boss_Damage_Stage2
       guid: 4450eb35bce9e14289b5a376faca54c5
       id: 1389767929
@@ -361,8 +361,8 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Boss_Damage_Stage2
         ObjectType: 3
-      Path: Default Work Unit/Boss/Boss_Damage/Boss_Damage_Stage2
-      maxAttenuation: 50
+      Path: Default Work Unit\Boss\Boss_Damage\Boss_Damage_Stage2
+      maxAttenuation: 50000000
       maxDuration: -1
       minDuration: -1
     - name: Boss_Damage_Stage3
@@ -377,8 +377,8 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Boss_Damage_Stage3
         ObjectType: 3
-      Path: Default Work Unit/Boss/Boss_Damage/Boss_Damage_Stage3
-      maxAttenuation: 50
+      Path: Default Work Unit\Boss\Boss_Damage\Boss_Damage_Stage3
+      maxAttenuation: 50000000
       maxDuration: -1
       minDuration: -1
     - name: Boss_Hit
@@ -391,10 +391,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Boss_Hit
         ObjectType: 3
-      Path: Default Work Unit/Boss/Boss_Hit
-      maxAttenuation: 50
-      maxDuration: 1.077951
-      minDuration: 0.844637
+      Path: Default Work Unit\Boss\Boss_Hit
+      maxAttenuation: 50000000
+      maxDuration: 1077951
+      minDuration: 844637
     - name: Boss_shield_Hit
       guid: 813c3a29b6131b48a6f9a4f017c1e6b5
       id: 4050461528
@@ -407,10 +407,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Boss_shield_Hit
         ObjectType: 3
-      Path: Default Work Unit/Boss/Shield/Boss_shield_Hit
-      maxAttenuation: 35
-      maxDuration: 0.890588
-      minDuration: 0.629741
+      Path: Default Work Unit\Boss\Shield\Boss_shield_Hit
+      maxAttenuation: 35000000
+      maxDuration: 890588
+      minDuration: 629741
     - name: Boss_Shield_Off
       guid: f906d83872f37443bda96c625ac26286
       id: 4133216652
@@ -423,8 +423,8 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Boss_Shield_Off
         ObjectType: 3
-      Path: Default Work Unit/Boss/Shield/Boss_Shield_Off
-      maxAttenuation: 50
+      Path: Default Work Unit\Boss\Shield\Boss_Shield_Off
+      maxAttenuation: 50000000
       maxDuration: -1
       minDuration: -1
     - name: Boss_Shield_On
@@ -439,8 +439,8 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Boss_Shield_On
         ObjectType: 3
-      Path: Default Work Unit/Boss/Shield/Boss_Shield_On
-      maxAttenuation: 35
+      Path: Default Work Unit\Boss\Shield\Boss_Shield_On
+      maxAttenuation: 35000000
       maxDuration: -1
       minDuration: -1
     - name: Granade_Explode
@@ -455,10 +455,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Granade_Explode
         ObjectType: 3
-      Path: Default Work Unit/Boss/Grnade_Attack/Granade_Explode
-      maxAttenuation: 50
-      maxDuration: 5.748534
-      minDuration: 4.562614
+      Path: Default Work Unit\Boss\Grnade_Attack\Granade_Explode
+      maxAttenuation: 50000000
+      maxDuration: 5748534
+      minDuration: 4562614
     - name: Granade_Fly
       guid: a9d2c49d2bc9d74e92f911325a5baa7c
       id: 2290418423
@@ -471,8 +471,8 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Granade_Fly
         ObjectType: 3
-      Path: Default Work Unit/Boss/Grnade_Attack/Granade_Fly
-      maxAttenuation: 50
+      Path: Default Work Unit\Boss\Grnade_Attack\Granade_Fly
+      maxAttenuation: 50000000
       maxDuration: -1
       minDuration: -1
     - name: Granade_Generate
@@ -487,10 +487,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Granade_Generate
         ObjectType: 3
-      Path: Default Work Unit/Boss/Grnade_Attack/Granade_Generate
-      maxAttenuation: 50
-      maxDuration: 2.032541
-      minDuration: 2.032541
+      Path: Default Work Unit\Boss\Grnade_Attack\Granade_Generate
+      maxAttenuation: 50000000
+      maxDuration: 2032541
+      minDuration: 2032541
     - name: Play_Beam_Attack_Boss
       guid: cbcf089bf03ce3498bfb288af473e619
       id: 1407284710
@@ -503,10 +503,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Beam_Attack_Boss
         ObjectType: 3
-      Path: Default Work Unit/Boss/Beam_Attack/Play_Beam_Attack_Boss
-      maxAttenuation: 50
-      maxDuration: 2.69275
-      minDuration: 2.137237
+      Path: Default Work Unit\Boss\Beam_Attack\Play_Beam_Attack_Boss
+      maxAttenuation: 50000000
+      maxDuration: 2692750
+      minDuration: 2137237
     - name: Play_Beam_Charge_Boss
       guid: 6564de3fe0810940a21a6bec9fe30cc4
       id: 1455790954
@@ -519,10 +519,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Beam_Charge_Boss
         ObjectType: 3
-      Path: Default Work Unit/Boss/Beam_Attack/Play_Beam_Charge_Boss
-      maxAttenuation: 50
-      maxDuration: 2.084988
-      minDuration: 1.654856
+      Path: Default Work Unit\Boss\Beam_Attack\Play_Beam_Charge_Boss
+      maxAttenuation: 50000000
+      maxDuration: 2084988
+      minDuration: 1654856
     - name: Play_CryBoss
       guid: 1783ba29517cac4da3fd51264111d99a
       id: 3691030833
@@ -535,10 +535,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_CryBoss
         ObjectType: 3
-      Path: Default Work Unit/Boss/Cry_Boss/Play_CryBoss
-      maxAttenuation: 50
-      maxDuration: 2.16696
-      minDuration: 1
+      Path: Default Work Unit\Boss\Cry_Boss\Play_CryBoss
+      maxAttenuation: 50000000
+      maxDuration: 2166960
+      minDuration: 1000000
     - name: Play_Die_Animation
       guid: bae6b3dd50d48349af87e26f5a9bef65
       id: 3500828431
@@ -549,10 +549,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Play_Die_Animation
         ObjectType: 3
-      Path: Default Work Unit/Boss/Play_Die_Animation
-      maxAttenuation: 50
-      maxDuration: 13.333333
-      minDuration: 13.333333
+      Path: Default Work Unit\Boss\Play_Die_Animation
+      maxAttenuation: 50000000
+      maxDuration: 13333333
+      minDuration: 13333333
     - name: Play_ElectricAttack
       guid: b1e75902f82a854181abadfd1c78d0b3
       id: 2261495667
@@ -565,10 +565,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_ElectricAttack
         ObjectType: 3
-      Path: Default Work Unit/Boss/Electric_Attack/Play_ElectricAttack
-      maxAttenuation: 50
-      maxDuration: 2.557228
-      minDuration: 1.653934
+      Path: Default Work Unit\Boss\Electric_Attack\Play_ElectricAttack
+      maxAttenuation: 50000000
+      maxDuration: 2557228
+      minDuration: 1653934
     - name: Play_ElectricCharge
       guid: c45937a303723544983add836adc90fd
       id: 1371651567
@@ -581,10 +581,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_ElectricCharge
         ObjectType: 3
-      Path: Default Work Unit/Boss/Electric_Attack/Play_ElectricCharge
-      maxAttenuation: 50
-      maxDuration: 1.290903
-      minDuration: 1.02459
+      Path: Default Work Unit\Boss\Electric_Attack\Play_ElectricCharge
+      maxAttenuation: 50000000
+      maxDuration: 1290903
+      minDuration: 1024590
     - name: Play_Entrance_Animation_Event
       guid: 761bc9b59042214b8bae13dbcfcfa480
       id: 2058323730
@@ -595,10 +595,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Play_Entrance_Animation_Event
         ObjectType: 3
-      Path: Default Work Unit/Boss/Play_Entrance_Animation_Event
-      maxAttenuation: 50
-      maxDuration: 18.347033
-      minDuration: 18.347033
+      Path: Default Work Unit\Boss\Play_Entrance_Animation_Event
+      maxAttenuation: 50000000
+      maxDuration: 12633366
+      minDuration: 12633366
     - name: Play_Footstep_Boss
       guid: 590fdefd4e8f9e4e8067ed37498ac4fe
       id: 1448726960
@@ -609,10 +609,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Play_Footstep_Boss
         ObjectType: 3
-      Path: Default Work Unit/Boss/Play_Footstep_Boss
-      maxAttenuation: 50
-      maxDuration: 3.188528
-      minDuration: 2.840655
+      Path: Default Work Unit\Boss\Play_Footstep_Boss
+      maxAttenuation: 50000000
+      maxDuration: 3188528
+      minDuration: 2840655
     - name: Play_Suffer_Boss
       guid: 1df18ce0c1012d44bca6b3167d83ca73
       id: 3491282541
@@ -625,21 +625,21 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Suffer_Boss
         ObjectType: 3
-      Path: Default Work Unit/Boss/Cry_Boss/Play_Suffer_Boss
-      maxAttenuation: 50
-      maxDuration: 1.120798
-      minDuration: 1.01619
-  - PhysicalPath: Events/Default Work Unit.wwu
+      Path: Default Work Unit\Boss\Cry_Boss\Play_Suffer_Boss
+      maxAttenuation: 50000000
+      maxDuration: 1120798
+      minDuration: 1016190
+  - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 3f77f4b458a8f1439e0884377d61ba07
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585273130823177541
     List: []
-  - PhysicalPath: Events/Enemies.wwu
-    ParentPhysicalPath: Events/Everything Else.wwu
+  - PhysicalPath: Events\Enemies.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
     guid: 33aa8d5bf2c979478a7cb2b32d993923
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585273681658509471
     List:
     - name: AcidBall
       guid: 9c44305e520e084fbe8a7cc33e10bbf8
@@ -655,10 +655,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: AcidBall
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Enemies/Spitter/AcidBall
-      maxAttenuation: 40
-      maxDuration: 2.659358
-      minDuration: 2.659358
+      Path: Default Work Unit\Everything Else\Enemies\Spitter\AcidBall
+      maxAttenuation: 40000000
+      maxDuration: 2659358
+      minDuration: 2659358
     - name: AcidBall_Hit
       guid: 6ca377a802931142bd279a3100ff37cf
       id: 3804989535
@@ -673,10 +673,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: AcidBall_Hit
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Enemies/Spitter/AcidBall_Hit
-      maxAttenuation: 40
-      maxDuration: 0.988796
-      minDuration: 0.988796
+      Path: Default Work Unit\Everything Else\Enemies\Spitter\AcidBall_Hit
+      maxAttenuation: 40000000
+      maxDuration: 988796
+      minDuration: 988796
     - name: Play_Bite_Enemy
       guid: 2c5efa4857a2074c8a508f9af3a31b95
       id: 3864198525
@@ -691,10 +691,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Bite_Enemy
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Enemies/Chomper/Play_Bite_Enemy
-      maxAttenuation: 25
-      maxDuration: 1.163323
-      minDuration: 0.861247
+      Path: Default Work Unit\Everything Else\Enemies\Chomper\Play_Bite_Enemy
+      maxAttenuation: 20000000
+      maxDuration: 1163323
+      minDuration: 861247
     - name: Play_Burp_Enemy
       guid: 6f37e2d6bc48bc4181228fb0dec8abd8
       id: 3547013554
@@ -709,10 +709,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Burp_Enemy
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Enemies/Spitter/Play_Burp_Enemy
-      maxAttenuation: 40
-      maxDuration: 6.582405
-      minDuration: 3.159358
+      Path: Default Work Unit\Everything Else\Enemies\Spitter\Play_Burp_Enemy
+      maxAttenuation: 40000000
+      maxDuration: 6582405
+      minDuration: 3159358
     - name: Play_footstep_Enemy
       guid: d760969e95c7944985f76d80f7fae9cc
       id: 1095021605
@@ -727,10 +727,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_footstep_Enemy
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Enemies/Chomper/Play_footstep_Enemy
-      maxAttenuation: 25
-      maxDuration: 0.388704
-      minDuration: 0.291385
+      Path: Default Work Unit\Everything Else\Enemies\Chomper\Play_footstep_Enemy
+      maxAttenuation: 20000000
+      maxDuration: 388704
+      minDuration: 291385
     - name: Play_Hit_Enemy
       guid: 1f378fb1803828408b3cd546f010152b
       id: 3889018732
@@ -745,10 +745,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Hit_Enemy
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Enemies/Chomper/Play_Hit_Enemy
-      maxAttenuation: 25
-      maxDuration: 1.417698
-      minDuration: 0.82645
+      Path: Default Work Unit\Everything Else\Enemies\Chomper\Play_Hit_Enemy
+      maxAttenuation: 20000000
+      maxDuration: 1417698
+      minDuration: 826450
     - name: Play_Run_Enemy
       guid: 04142659d15d194f9fe7694dbfa1d220
       id: 2283474596
@@ -763,15 +763,15 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Run_Enemy
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Enemies/Chomper/Play_Run_Enemy
-      maxAttenuation: 25
-      maxDuration: 1.359463
-      minDuration: 0.441385
-  - PhysicalPath: Events/Environment.wwu
-    ParentPhysicalPath: Events/Everything Else.wwu
+      Path: Default Work Unit\Everything Else\Enemies\Chomper\Play_Run_Enemy
+      maxAttenuation: 20000000
+      maxDuration: 1359463
+      minDuration: 441385
+  - PhysicalPath: Events\Environment.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
     guid: 1496ff6dd0c3a747934e73019d4eead2
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585279190657608915
     List:
     - name: End_Moving_Platform
       guid: 716eec3a8d802a47bdbb132b7516bf8f
@@ -789,7 +789,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: End_Moving_Platform
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Environment/Emitters/Moving_Platform/End_Moving_Platform
+      Path: Default Work Unit\Everything Else\Environment\Emitters\Moving_Platform\End_Moving_Platform
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -807,8 +807,8 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Info_Post
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Environment/Emitters/Info_Post
-      maxAttenuation: 16
+      Path: Default Work Unit\Everything Else\Environment\Emitters\Info_Post
+      maxAttenuation: 16000000
       maxDuration: -1
       minDuration: -1
     - name: Play_Ambient
@@ -825,7 +825,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Ambient
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Environment/Background/Play_Ambient
+      Path: Default Work Unit\Everything Else\Environment\Background\Play_Ambient
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -845,21 +845,21 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Start_moving_Platform
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Environment/Emitters/Moving_Platform/Start_moving_Platform
-      maxAttenuation: 16
+      Path: Default Work Unit\Everything Else\Environment\Emitters\Moving_Platform\Start_moving_Platform
+      maxAttenuation: 16000000
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events/Everything Else.wwu
-    ParentPhysicalPath: Events/Default Work Unit.wwu
+  - PhysicalPath: Events\Everything Else.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: 98170a250b404f4581cdb088e6617b99
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585273130823322632
     List: []
-  - PhysicalPath: Events/Music.wwu
-    ParentPhysicalPath: Events/Everything Else.wwu
+  - PhysicalPath: Events\Music.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
     guid: 5264c0c3b1da664d91b5bdff019e3990
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585273681658614519
     List:
     - name: Play_Music
       guid: a545e91d008158419a3a48599aab9730
@@ -873,15 +873,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Play_Music
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Music/Play_Music
+      Path: Default Work Unit\Everything Else\Music\Play_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events/Objects.wwu
-    ParentPhysicalPath: Events/Everything Else.wwu
+  - PhysicalPath: Events\Objects.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
     guid: 6eb111b79b7e744d979aabd54839bd2a
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585273731562967279
     List:
     - name: Activate_Crystal
       guid: 3da1d06e4e3e6d40b10754916cecfe4b
@@ -895,10 +895,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Activate_Crystal
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Activate_Crystal
-      maxAttenuation: 16
-      maxDuration: 3.065068
-      minDuration: 3.065068
+      Path: Default Work Unit\Everything Else\Objects\Activate_Crystal
+      maxAttenuation: 16000000
+      maxDuration: 3065068
+      minDuration: 3065068
     - name: endPush
       guid: 63a617dffa3ac74b968dec7f8bbbeeab
       id: 546690056
@@ -913,7 +913,7 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: endPush
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/PushableBox/endPush
+      Path: Default Work Unit\Everything Else\Objects\PushableBox\endPush
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -929,10 +929,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: HealthPickup
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/HealthPickup
-      maxAttenuation: 16
-      maxDuration: 2.931507
-      minDuration: 2.931507
+      Path: Default Work Unit\Everything Else\Objects\HealthPickup
+      maxAttenuation: 16000000
+      maxDuration: 2931507
+      minDuration: 2931507
     - name: Object_Acid_Dive
       guid: feceecfa4e7d69448c7bb19197386b98
       id: 192769625
@@ -947,10 +947,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Object_Acid_Dive
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Acid/Object_Acid_Dive
-      maxAttenuation: 16
-      maxDuration: 3.394895
-      minDuration: 3.024507
+      Path: Default Work Unit\Everything Else\Objects\Acid\Object_Acid_Dive
+      maxAttenuation: 16000000
+      maxDuration: 3394895
+      minDuration: 3024507
     - name: Pick_Key
       guid: 18f4b06de114a7449dea4cc258ef0b94
       id: 84889690
@@ -963,10 +963,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Pick_Key
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Pick_Key
-      maxAttenuation: 16
-      maxDuration: 3.835616
-      minDuration: 3.835616
+      Path: Default Work Unit\Everything Else\Objects\Pick_Key
+      maxAttenuation: 16000000
+      maxDuration: 3835616
+      minDuration: 3835616
     - name: Pick_Melee
       guid: ba66ac3fdbbbc747ad5ff519a6531fc4
       id: 790514531
@@ -979,10 +979,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Pick_Melee
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Pick_Melee
-      maxAttenuation: 16
-      maxDuration: 4
-      minDuration: 4
+      Path: Default Work Unit\Everything Else\Objects\Pick_Melee
+      maxAttenuation: 16000000
+      maxDuration: 4000000
+      minDuration: 4000000
     - name: Play_Column_Destruction
       guid: 83537a0f8980b641be4cd45977fd2b91
       id: 3652236365
@@ -997,10 +997,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Column_Destruction
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Column/Play_Column_Destruction
-      maxAttenuation: 16
-      maxDuration: 2.068477
-      minDuration: 1.952383
+      Path: Default Work Unit\Everything Else\Objects\Column\Play_Column_Destruction
+      maxAttenuation: 16000000
+      maxDuration: 2068477
+      minDuration: 1952383
     - name: Play_Column_Hit
       guid: e69fee3d523bff4f8415d80e9d5a8fdd
       id: 3833695162
@@ -1015,10 +1015,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Column_Hit
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Column/Play_Column_Hit
-      maxAttenuation: 16
-      maxDuration: 1.058636
-      minDuration: 0.904048
+      Path: Default Work Unit\Everything Else\Objects\Column\Play_Column_Hit
+      maxAttenuation: 16000000
+      maxDuration: 1058636
+      minDuration: 904048
     - name: Play_hub_Door
       guid: c91ad5cd6d197c42967f896334281a16
       id: 1527291342
@@ -1031,10 +1031,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Play_hub_Door
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Play_hub_Door
-      maxAttenuation: 16
-      maxDuration: 5.333333
-      minDuration: 5.333333
+      Path: Default Work Unit\Everything Else\Objects\Play_hub_Door
+      maxAttenuation: 16000000
+      maxDuration: 5333333
+      minDuration: 5333333
     - name: Player_Acid_Dive
       guid: 4f6581f32b04be40a527edf24972b562
       id: 454748311
@@ -1049,10 +1049,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Player_Acid_Dive
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Acid/Player_Acid_Dive
-      maxAttenuation: 16
-      maxDuration: 2.572849
-      minDuration: 2.292148
+      Path: Default Work Unit\Everything Else\Objects\Acid\Player_Acid_Dive
+      maxAttenuation: 16000000
+      maxDuration: 2572849
+      minDuration: 2292148
     - name: PlayInfoPost
       guid: 2bf9605429f8f74fb470368bb8df8152
       id: 272156789
@@ -1065,10 +1065,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: PlayInfoPost
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/PlayInfoPost
-      maxAttenuation: 16
-      maxDuration: 4.944161
-      minDuration: 4.404747
+      Path: Default Work Unit\Everything Else\Objects\PlayInfoPost
+      maxAttenuation: 16000000
+      maxDuration: 4944161
+      minDuration: 4404747
     - name: PressurePad
       guid: 131c093bc652a64eaca5fbc0024096c0
       id: 2388937179
@@ -1081,10 +1081,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: PressurePad
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/PressurePad
-      maxAttenuation: 16
-      maxDuration: 2.44392
-      minDuration: 2.44392
+      Path: Default Work Unit\Everything Else\Objects\PressurePad
+      maxAttenuation: 16000000
+      maxDuration: 2443920
+      minDuration: 2443920
     - name: Sliding_Door
       guid: a38e841552e28c47a6f2700923b76716
       id: 3371785692
@@ -1097,10 +1097,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Sliding_Door
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Sliding_Door
-      maxAttenuation: 16
-      maxDuration: 3.973433
-      minDuration: 3.860317
+      Path: Default Work Unit\Everything Else\Objects\Sliding_Door
+      maxAttenuation: 16000000
+      maxDuration: 3973433
+      minDuration: 3860317
     - name: Spikes
       guid: ec65f485236da04eba6cb686d706dd76
       id: 747415224
@@ -1113,10 +1113,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Spikes
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/Spikes
-      maxAttenuation: 16
-      maxDuration: 0.359051
-      minDuration: 0.293769
+      Path: Default Work Unit\Everything Else\Objects\Spikes
+      maxAttenuation: 16000000
+      maxDuration: 359051
+      minDuration: 293769
     - name: startPush
       guid: 603a8da89d064f429b2c7753e331cfea
       id: 3502095519
@@ -1131,15 +1131,15 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: startPush
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Objects/PushableBox/startPush
-      maxAttenuation: 16
+      Path: Default Work Unit\Everything Else\Objects\PushableBox\startPush
+      maxAttenuation: 16000000
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events/Player.wwu
-    ParentPhysicalPath: Events/Everything Else.wwu
+  - PhysicalPath: Events\Player.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
     guid: 3e34d26832bfa6488c4d04faed3010df
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585273731562917266
     List:
     - name: Play_Crouch
       guid: 3e0041d5ba0cc44780f83fe04ed46481
@@ -1155,10 +1155,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Crouch
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Player/Movement/Play_Crouch
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_Crouch
       maxAttenuation: 0
-      maxDuration: 0.491806
-      minDuration: 0.390347
+      maxDuration: 491806
+      minDuration: 390347
     - name: Play_Footstep
       guid: de13ba835ee3e34abd2dc364ac3dfd48
       id: 1602358412
@@ -1173,10 +1173,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Footstep
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Player/Movement/Play_Footstep
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_Footstep
       maxAttenuation: 0
-      maxDuration: 0.439095
-      minDuration: 0.389095
+      maxDuration: 439095
+      minDuration: 389095
     - name: Play_Gun
       guid: 5556683b683c8c4994a38cfe461f7672
       id: 2622995180
@@ -1191,10 +1191,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Gun
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Player/Combat/Play_Gun
+      Path: Default Work Unit\Everything Else\Player\Combat\Play_Gun
       maxAttenuation: 0
-      maxDuration: 0.627259
-      minDuration: 0.52746
+      maxDuration: 627259
+      minDuration: 527460
     - name: Play_Hit
       guid: 1c74ebe55247ce4883f0fdff0be68f6d
       id: 2960666077
@@ -1209,10 +1209,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Hit
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Player/Combat/Play_Hit
+      Path: Default Work Unit\Everything Else\Player\Combat\Play_Hit
       maxAttenuation: 0
-      maxDuration: 1.070638
-      minDuration: 0.508633
+      maxDuration: 1070638
+      minDuration: 508633
     - name: Play_Jump
       guid: a88c132cb3e1fb44a1ee780ae81409fd
       id: 3689126666
@@ -1227,10 +1227,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Jump
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Player/Movement/Play_Jump
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_Jump
       maxAttenuation: 0
-      maxDuration: 1.211293
-      minDuration: 0.440347
+      maxDuration: 1211293
+      minDuration: 440347
     - name: Play_Landing
       guid: cd2c09fe9248c648a98f977b74657308
       id: 2323405115
@@ -1245,10 +1245,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Landing
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Player/Movement/Play_Landing
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_Landing
       maxAttenuation: 0
-      maxDuration: 0.368555
-      minDuration: 0.262966
+      maxDuration: 368555
+      minDuration: 262966
     - name: Play_Melee
       guid: 33b1e627dca4244a98868e008d893bba
       id: 2994689306
@@ -1263,10 +1263,10 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_Melee
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Player/Combat/Play_Melee
+      Path: Default Work Unit\Everything Else\Player\Combat\Play_Melee
       maxAttenuation: 0
-      maxDuration: 1.267604
-      minDuration: 1.129307
+      maxDuration: 1267604
+      minDuration: 1129307
     - name: Play_RoboArm
       guid: a57d799dd3c02947ae3dc8eae701b1b1
       id: 1402528148
@@ -1281,15 +1281,15 @@ MonoBehaviour:
         ObjectType: 4
       - ElementName: Play_RoboArm
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/Player/Movement/Play_RoboArm
+      Path: Default Work Unit\Everything Else\Player\Movement\Play_RoboArm
       maxAttenuation: 0
-      maxDuration: 0.491806
-      minDuration: 0.390347
-  - PhysicalPath: Events/Spceship.wwu
-    ParentPhysicalPath: Events/Default Work Unit.wwu
+      maxDuration: 491806
+      minDuration: 390347
+  - PhysicalPath: Events\Spceship.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: 778b4474eb825a4393b875b9176fc34f
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585282466138801958
     List:
     - name: Spaceship
       guid: b2c18531c7d3134991f0a3801caeface
@@ -1301,15 +1301,15 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Spaceship
         ObjectType: 3
-      Path: Default Work Unit/Spceship/Spaceship
-      maxAttenuation: 31
+      Path: Default Work Unit\Spceship\Spaceship
+      maxAttenuation: 31000000
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events/UI.wwu
-    ParentPhysicalPath: Events/Everything Else.wwu
+  - PhysicalPath: Events\UI.wwu
+    ParentPhysicalPath: Events\Everything Else.wwu
     guid: 2751f9bb557dd749bfd3363085cd22c5
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585280024992328177
     List:
     - name: Clicked_Button
       guid: 0cc0821d502b984fa9ed52c8c66cafbb
@@ -1323,10 +1323,10 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Clicked_Button
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/UI/Clicked_Button
+      Path: Default Work Unit\Everything Else\UI\Clicked_Button
       maxAttenuation: 0
-      maxDuration: 0.299658
-      minDuration: 0.299658
+      maxDuration: 299658
+      minDuration: 299658
     - name: Highlighted_Button
       guid: 09a9b5aa54f612458ddc8c8d27f03303
       id: 3093686167
@@ -1339,22 +1339,31 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Highlighted_Button
         ObjectType: 3
-      Path: Default Work Unit/Everything Else/UI/Highlighted_Button
+      Path: Default Work Unit\Everything Else\UI\Highlighted_Button
       maxAttenuation: 0
-      maxDuration: 0.023488
-      minDuration: 0.023488
+      maxDuration: 23488
+      minDuration: 23488
   RtpcWwu:
-  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 987ab8fe00df404486ad7439a183d868
     GuidInternal: 
-    m_lastTime: -8585272862004775808
-    List: []
-  - PhysicalPath: Game Parameters/Factory Motion.wwu
+    m_lastTime: -8585271251113507838
+    List:
+    - name: Cave_Depth
+      guid: 682e6a31d6cf7c4d9e3df60dc7ab057c
+      id: 2102545800
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cave_Depth
+        ObjectType: 13
+      Path: Default Work Unit\Cave_Depth
+  - PhysicalPath: Game Parameters\Factory Motion.wwu
     ParentPhysicalPath: 
     guid: 225213d7dbd1d042adc0930743567776
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585305849686782278
     List:
     - name: Playback_Rate
       guid: e37e38283ac11643b9c3db5c521624af
@@ -1364,7 +1373,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Playback_Rate
         ObjectType: 13
-      Path: Factory Motion/Playback_Rate
+      Path: Factory Motion\Playback_Rate
     - name: RPM
       guid: 05aa129177f5fd449f4e4424158129e6
       id: 796049864
@@ -1373,12 +1382,12 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: RPM
         ObjectType: 13
-      Path: Factory Motion/RPM
-  - PhysicalPath: Game Parameters/Factory SoundSeed Air Game Syncs.wwu
+      Path: Factory Motion\RPM
+  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
     ParentPhysicalPath: 
     guid: 5577163b42fb8b4598bf96f557afb3b9
     GuidInternal: 
-    m_lastTime: -8585272862004775808
+    m_lastTime: -8585305849711982293
     List:
     - name: SS_Air_Fear
       guid: 59062ef746431c4ea1b1dab46a05101e
@@ -1388,7 +1397,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Fear
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Fear
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
     - name: SS_Air_Freefall
       guid: 37fe2d2f9e4f944d83d853cca39781ad
       id: 3002758120
@@ -1397,7 +1406,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Freefall
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Freefall
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
     - name: SS_Air_Fury
       guid: dc79aea23acaba4696529986c322a87b
       id: 1029930033
@@ -1406,7 +1415,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Fury
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Fury
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
     - name: SS_Air_Month
       guid: 45b4e209a3c47f44b3ca818a1d925ef7
       id: 2648548617
@@ -1415,7 +1424,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Month
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Month
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
     - name: SS_Air_Presence
       guid: 1a81b7e32f7b0f49b44f5fe51b468041
       id: 3847924954
@@ -1424,7 +1433,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Presence
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Presence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
     - name: SS_Air_RPM
       guid: ab9048a3d5b92645a64d5290c43ef2dc
       id: 822163944
@@ -1433,7 +1442,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_RPM
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_RPM
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
     - name: SS_Air_Size
       guid: efeb291393a12e47a38c64668b494879
       id: 3074696722
@@ -1442,7 +1451,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Size
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Size
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
     - name: SS_Air_Storm
       guid: db8c3fe9d1063747acaf7cd44bbed783
       id: 3715662592
@@ -1451,7 +1460,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Storm
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Storm
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
     - name: SS_Air_TimeOfDay
       guid: 2ca76f537e8c8b4cae03ef34fdadc314
       id: 3203397129
@@ -1460,7 +1469,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_TimeOfDay
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_TimeOfDay
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
     - name: SS_Air_Turbulence
       guid: 197ba8edaa73a0409f192073606db710
       id: 4160247818
@@ -1469,13 +1478,13 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: SS_Air_Turbulence
         ObjectType: 13
-      Path: Factory SoundSeed Air Game Syncs/SS_Air_Turbulence
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
   StateWwu:
-  - PhysicalPath: States/Default Work Unit.wwu
+  - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 511abde5f23b8e4380f1c97bed2f60d4
     GuidInternal: 
-    m_lastTime: -8585272861844775808
+    m_lastTime: -8585273110314237511
     List:
     - name: Ambient_Background
       guid: 3bea8d8074fcbf43a7bbf2fe2344a99a
@@ -1485,7 +1494,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Ambient_Background
         ObjectType: 9
-      Path: Default Work Unit/Ambient_Background
+      Path: Default Work Unit\Ambient_Background
       values:
       - name: Cave
         guid: ba2217db798ede40a4eec85320db23b2
@@ -1522,7 +1531,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Boss_Stage
         ObjectType: 9
-      Path: Default Work Unit/Boss_Stage
+      Path: Default Work Unit\Boss_Stage
       values:
       - name: boss_out
         guid: dbb6cb2d271f50439221754694d6e877
@@ -1577,7 +1586,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: MusicZones
         ObjectType: 9
-      Path: Default Work Unit/MusicZones
+      Path: Default Work Unit\MusicZones
       values:
       - name: Boss_Room
         guid: de62864d986c9a45a7183606c6b90fd1
@@ -1614,7 +1623,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: UIMenuState
         ObjectType: 9
-      Path: Default Work Unit/UIMenuState
+      Path: Default Work Unit\UIMenuState
       values:
       - name: Gameplay
         guid: 245133f18af98d4090ee9e8a682351b0
@@ -1638,11 +1647,11 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches/Default Work Unit.wwu
+  - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 7f1b1624dc871f478bf7b81059154bb9
     GuidInternal: 
-    m_lastTime: -8585272861844775808
+    m_lastTime: -8585273110314287486
     List:
     - name: Surface_Type
       guid: 990da11ce7582546b36432945d247e28
@@ -1652,7 +1661,7 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Surface_Type
         ObjectType: 11
-      Path: Default Work Unit/Surface_Type
+      Path: Default Work Unit\Surface_Type
       values:
       - name: AlienTile
         guid: f018523e6ad12a48ba4c71e6bbcf54fd
@@ -1670,11 +1679,11 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers/Default Work Unit.wwu
+  - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 27890eff51a9d9409b7bbcdc5963dc9d
     GuidInternal: 
-    m_lastTime: -8585272861844775808
+    m_lastTime: -8585300851850060368
     List: []
   ExpandedItems:
   - /PM2_2DExpl_WwiseProject
