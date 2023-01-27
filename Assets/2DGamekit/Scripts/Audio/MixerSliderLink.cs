@@ -34,6 +34,21 @@ namespace Gamekit2D
         void SliderValueChange(float value)
         {
             mixer.SetFloat(mixerParameter, minAttenuation + value * (maxAttenuation - minAttenuation));
+
+            if (mixerParameter == "MasterVolume")
+            {
+                AkSoundEngine.SetRTPCValue("Global_Volume", value);
+            }
+
+            if (mixerParameter == "MusicVolume")
+            {
+                AkSoundEngine.SetRTPCValue("Music_Volume", value);
+            }
+
+            if (mixerParameter == "SFXVolume")
+            {
+                AkSoundEngine.SetRTPCValue("SFX_Volume", value);
+            }
         }
     }
 }
