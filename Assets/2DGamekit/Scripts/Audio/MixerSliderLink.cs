@@ -45,10 +45,12 @@ namespace Gamekit2D
                 AkSoundEngine.SetRTPCValue("Music_Volume", value);
             }
 
-            if (mixerParameter == "SFXVolume")
+            if (mixerParameter == "SFXMasterVolume")
             {
                 AkSoundEngine.SetRTPCValue("SFX_Volume", value);
             }
+
+            //Debug.Log("slidervalue is" + value);
         }
     }
 }

@@ -186,6 +186,7 @@ namespace AK
         static const AkUniqueID REVERBS = 3545700988U;
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID TEMPLE = 2323193050U;
+        static const AkUniqueID UIMENU = 1846620334U;
     } // namespace BUSSES
 
     namespace AUX_BUSSES
