@@ -176,6 +176,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID AMBIENCES = 1017660616U;
+        static const AkUniqueID BOSS_SFX = 2949895159U;
         static const AkUniqueID CAVE = 4122393694U;
         static const AkUniqueID DUCKING = 2712164154U;
         static const AkUniqueID EXTERNAL = 1442075084U;
@@ -183,6 +184,7 @@ namespace AK
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
         static const AkUniqueID MUSIC = 3991942870U;
+        static const AkUniqueID NEW_AUDIO_BUS = 2255513057U;
         static const AkUniqueID REVERBS = 3545700988U;
         static const AkUniqueID SFX = 393239870U;
         static const AkUniqueID TEMPLE = 2323193050U;

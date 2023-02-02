@@ -139,7 +139,19 @@ MonoBehaviour:
     m_Bits: 8192
   OnDamageableHit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7003894433288470211}
+        m_TargetAssemblyTypeName: Player_Spikes_Event, Assembly-CSharp
+        m_MethodName: PlayCrystalHit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnNonDamageableHit:
     m_PersistentCalls:
       m_Calls: []
@@ -150,7 +162,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065201289290768}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc3158389b4494544b173648e4b391c6, type: 3}
   m_Name: 
@@ -167,7 +179,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1065201289290768}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -203,19 +215,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   OnEnter:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7003894433288470211}
-        m_TargetAssemblyTypeName: Player_Spikes_Event, Assembly-CSharp
-        m_MethodName: PlayCrystalHit
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   OnExit:
     m_PersistentCalls:
       m_Calls: []
