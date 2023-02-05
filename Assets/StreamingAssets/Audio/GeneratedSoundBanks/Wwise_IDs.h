@@ -47,6 +47,7 @@ namespace AK
         static const AkUniqueID PLAY_COLUMN_HIT = 3833695162U;
         static const AkUniqueID PLAY_CROUCH = 3989731860U;
         static const AkUniqueID PLAY_CRYBOSS = 3691030833U;
+        static const AkUniqueID PLAY_DIE = 3092915528U;
         static const AkUniqueID PLAY_DIE_ANIMATION = 3500828431U;
         static const AkUniqueID PLAY_ELECTRICATTACK = 2261495667U;
         static const AkUniqueID PLAY_ELECTRICCHARGE = 1371651567U;
@@ -152,6 +153,7 @@ namespace AK
         static const AkUniqueID PLAYBACK_RATE = 1524500807U;
         static const AkUniqueID RPM = 796049864U;
         static const AkUniqueID SFX_VOLUME = 1564184899U;
+        static const AkUniqueID SIDE_CHAIN_SFX_VOLUME = 1056434843U;
         static const AkUniqueID SS_AIR_FEAR = 1351367891U;
         static const AkUniqueID SS_AIR_FREEFALL = 3002758120U;
         static const AkUniqueID SS_AIR_FURY = 1029930033U;
@@ -181,6 +183,7 @@ namespace AK
         static const AkUniqueID DUCKING = 2712164154U;
         static const AkUniqueID EXTERNAL = 1442075084U;
         static const AkUniqueID JUNGLE = 219304270U;
+        static const AkUniqueID MAIN_BUS = 3032847908U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
         static const AkUniqueID MUSIC = 3991942870U;
