@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b3347e31b1dd54ba321b009fb1e9da, type: 3}
+  m_Name: A4EC5BEB-DC1C-4390-A437-996788DD793D
+  m_EditorClassIdentifier: 
+  objectName: Sliding_Bridge
+  id: 4134186739
+  guid: A4EC5BEB-DC1C-4390-A437-996788DD793D

@@ -52,6 +52,7 @@ namespace AK
         static const AkUniqueID PLAY_ELECTRICATTACK = 2261495667U;
         static const AkUniqueID PLAY_ELECTRICCHARGE = 1371651567U;
         static const AkUniqueID PLAY_ENTRANCE_ANIMATION_EVENT = 2058323730U;
+        static const AkUniqueID PLAY_FALL = 2712047697U;
         static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
         static const AkUniqueID PLAY_FOOTSTEP_BOSS = 1448726960U;
         static const AkUniqueID PLAY_FOOTSTEP_ENEMY = 1095021605U;
@@ -69,6 +70,7 @@ namespace AK
         static const AkUniqueID PLAYER_ACID_DIVE = 454748311U;
         static const AkUniqueID PLAYINFOPOST = 272156789U;
         static const AkUniqueID PRESSUREPAD = 2388937179U;
+        static const AkUniqueID SLIDING_BRIDGE = 4134186739U;
         static const AkUniqueID SLIDING_DOOR = 3371785692U;
         static const AkUniqueID SPACESHIP = 554650843U;
         static const AkUniqueID SPIKES = 747415224U;

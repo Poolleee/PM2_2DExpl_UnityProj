@@ -14,6 +14,8 @@ public class PlayerAnimationEvents : MonoBehaviour
     public AK.Wwise.Event Melee_Event;
     public AK.Wwise.Event Gun_Event;
     public AK.Wwise.Event Hurt_Event;
+    public AK.Wwise.Event Die_Event;
+    public AK.Wwise.Event Fall_Event;
 
     public void PlayFootstep()
     {
@@ -63,6 +65,16 @@ public class PlayerAnimationEvents : MonoBehaviour
     public void PlayHurt()
     {
         Hurt_Event.Post(gameObject);
+    }
+
+    public void PlayDie()
+    {
+        Die_Event.Post(gameObject);
+    }
+
+    public void PlayFall()
+    {
+        Fall_Event.Post(gameObject);
     }
 
 }

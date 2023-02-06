@@ -710,8 +710,17 @@ namespace Gamekit2D
             hurtAudioPlayer.PlayRandomSound();
 
             //wwise
-            PlayerAnimationEvents = GameObject.Find("Ellen").GetComponent<PlayerAnimationEvents>();
-            PlayerAnimationEvents.PlayHurt();
+            if (damageable.CurrentHealth > 0)
+            {
+                PlayerAnimationEvents = GameObject.Find("Ellen").GetComponent<PlayerAnimationEvents>();
+                PlayerAnimationEvents.PlayHurt();
+            }
+            else
+            {
+                PlayerAnimationEvents = GameObject.Find("Ellen").GetComponent<PlayerAnimationEvents>();
+                PlayerAnimationEvents.PlayDie();
+            }
+           
 
             //if the health is < 0, mean die callback will take care of respawn
             if (damager.forceRespawn && damageable.CurrentHealth > 0)

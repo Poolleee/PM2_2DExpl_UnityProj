@@ -798,6 +798,16 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: baafddadd9e09e846830d7475d6e87c7,
       type: 2}
+  Die_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c7f9db79b92db1b4dbe092273881bcf8,
+      type: 2}
+  Fall_Event:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b4e60af3fab04dd4094b307aed24b4c1,
+      type: 2}
 --- !u!1 &1181578502863468
 GameObject:
   m_ObjectHideFlags: 0
